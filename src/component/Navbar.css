@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Noto+Serif:wght@200&display=swap');
+
+.active.active:any-link {
+  color: red;
+  border-top: 1px solid blue;
+
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000fa;
+  box-shadow: 1px 0 5px blue;
+  position: sticky;
+  top: 0;
+}
+nav .title {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 200;
+  margin: 1rem;
+  padding: 5px;
+  letter-spacing: 3px;
+
+  text-decoration: none;
+  color: red !important;
+  border-bottom: 1px solid blue;
+  border-left: 1px solid blue;
+  text-shadow: 5px 5px 10px blue;
+
+  border-radius: 15px 0 0 15px;
+
+}
+
+nav ul {
+  display: flex;
+
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0 0.9rem;
+}
+nav ul li a:hover {
+  transition: all  ease-in-out;
+
+}
+nav ul li a::after {
+  content: '';
+    display: block;
+    width: 0;
+    
+    border-bottom:1px solid red;
+    transition: width .3s;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+nav .menu span {
+  height: 0.1rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 480px) {
+  .active {
+    color: red;
+    border: none!important;
+  }
+  nav .menu {
+    display: flex;
+  }
+  nav {
+    flex-direction: column;
+    align-items: start;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+    
+
+  }
+  nav ul.open {
+    display: flex;
+  }
+  nav ul li {
+    width: 100%;
+    text-align: center;
+   
+  }
+  nav ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+}
