@@ -1,0 +1,77 @@
+.card-container {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 20px;
+}
+
+.card {
+  background-color: rgba(10, 6, 245, 0.521);
+  color: #fff;
+  padding: 3rem 5rem;
+  border-radius: 12px;
+  border: 1px solid blue;
+  box-shadow: 1px 1px 20px red;
+  
+
+
+}
+
+.card p {
+  padding: 1rem;
+  line-height: 160%;
+  width: 90%;
+
+
+}
+
+.cont {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.text-cont {
+  margin: 10px;
+}
+
+.card-diego-img {
+width: 150px;
+
+height: 150px;
+border-radius: 12px 0 12px 0;
+box-shadow: 1px 1px 15px #000;
+
+animation: animation1  ease 2s infinite normal none;
+ 
+}
+
+.btn-card {
+  padding: 10px;
+  letter-spacing: 2px;
+  background-color: rgb(3, 3, 10);
+  outline: none;
+  border: none;
+  box-shadow: 1px 1px 5px red;
+  border-radius: 12px 0 12px 0;
+  align-items: center;
+  
+}
+.btn-card:hover {
+  border: 1px solid red;
+}
+
+
+@keyframes animation1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}

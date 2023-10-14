@@ -1,6 +1,6 @@
 
 .imagesection {
-  background-image: url("../images/curbi.jpg");
+  background-image: url("../images/mont.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -14,11 +14,24 @@
 }
 .überschrift {
   width:60%;
-  margin: auto;
+  margin: 10px auto;
   text-align: center;
-  background-color: rgba(10, 6, 245, 0.466);
-  color: red;
+  background-color: rgba(10, 6, 245, 0.63);
+  color: #000;
   border-radius: 12px 0 12px 0;
   padding: 30px;
   box-shadow: 1px 1px 15px red;
+}
+.under {
+  margin-bottom:20px;
+}
+.end-header {
+  padding: 50px;
+  text-align: center;
+  border: 1px solid blue;
+  background-color: red;
+  color: #000;
+
+  box-shadow: 1px 1px 15px blue;
+
 }

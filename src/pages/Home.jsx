@@ -1,8 +1,12 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 import './Home.css'
+import Card from '../component/Card'
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+
 
 export const Home = () => {
+
   return (
     <>
       <div className='mainsection'>
@@ -17,16 +21,26 @@ export const Home = () => {
               }}
             /></h2>
 
+            <a href='https://github.com/diego-monfort-landolt'>
+              <AiFillGithub color='black' size='50px' />
+            </a>
+            <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
+              <AiFillLinkedin size='50px' color='black' />
+            </a>
+
+
+
+
 
           </div>
 
         </div>
-      </div>
+      </div >
 
       <main className='main'>
         <div className='main-container'>
-          <h2>Hier findest du einige meiner Projekte</h2>
-
+          <h2 className='end-header'>Hier findest du einige meiner Projekte</h2>
+          <Card />
         </div>
         <div className='texto'>
 
