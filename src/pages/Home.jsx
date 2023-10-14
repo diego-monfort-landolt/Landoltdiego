@@ -27,11 +27,6 @@ export const Home = () => {
             <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
               <AiFillLinkedin size='50px' color='black' />
             </a>
-
-
-
-
-
           </div>
 
         </div>
@@ -39,7 +34,7 @@ export const Home = () => {
 
       <main className='main'>
         <div className='main-container'>
-          <h2 className='end-header'>Hier findest du einige meiner Projekte</h2>
+          <h2 className='end-header'>Hey there 👋 </h2>
           <Card />
         </div>
         <div className='texto'>
