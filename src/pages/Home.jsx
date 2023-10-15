@@ -15,7 +15,7 @@ export const Home = () => {
 
             <h2 className='under'><Typewriter
               options={{
-                strings: ['Welcome on my Portfolio', '{ I m DiegoDev }'],
+                strings: ['Welcome to my Portfolio', '{ I m DiegoDev }'],
                 autoStart: true,
                 loop: true,
               }}

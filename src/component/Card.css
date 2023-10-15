@@ -66,13 +66,12 @@ animation: animation1  ease 2s infinite normal none;
   border: 1px solid red;
 }
 
-
 @keyframes animation1 {
   0% {
     opacity: 1;
   }
   50% {
-    opacity: 0.6;
+    opacity: 0.8;
   }
   100% {
     opacity: 1;
