@@ -12,7 +12,6 @@ export const Home = () => {
       <div className='mainsection'>
         <div className='imagesection'>
           <div className='überschrift'>
-
             <h2 className='under'><Typewriter
               options={{
                 strings: ['Welcome to my Portfolio', '{ I m DiegoDev }'],
@@ -20,7 +19,6 @@ export const Home = () => {
                 loop: true,
               }}
             /></h2>
-
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='black' size='50px' />
             </a>
@@ -36,6 +34,7 @@ export const Home = () => {
         <div className='main-container'>
           <h2 className='end-header'>Hey there 👋 </h2>
           <Card />
+
         </div>
         <div className='texto'>
 
