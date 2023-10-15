@@ -24,11 +24,8 @@
 }
 
 .card p {
-  padding: 1rem;
-  
+  padding: 1rem;  
   width: 90%;
-
-
 }
 
 .cont {
@@ -36,13 +33,13 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 }
+
 .text-cont {
   margin: 10px;
 }
 
 .card-diego-img {
 width: 150px;
-
 height: 150px;
 border-radius: 12px 0 12px 0;
 box-shadow: 1px 1px 15px #000;
@@ -56,10 +53,13 @@ animation: animation1  ease 2s infinite normal none;
   letter-spacing: 2px;
   background-color: rgb(3, 3, 10);
   outline: none;
+
   border: none;
   box-shadow: 1px 1px 5px red;
   border-radius: 12px 0 12px 0;
   align-items: center;
+
+  margin-top: 20px;
   
 }
 .btn-card:hover {

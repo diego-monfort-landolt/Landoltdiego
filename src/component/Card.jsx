@@ -4,6 +4,7 @@ import '../component/Card.css'
 import Diego from '../images/diego-landolt.png'
 
 const Card = () => {
+  
   const [isOpen, setIsOpen] = useState(false)
   function oldPort() {
     location.href = 'https://diego-monfort-landolt.github.io/portfoliodiegolandolt/'
@@ -15,7 +16,6 @@ const Card = () => {
         <motion.div transition={{ layout: { duration: 1, type: 'spring' } }} layout onClick={() => setIsOpen(!isOpen)} className='card'>
           <motion.h2 layout='position'>👆 Diego Landolt 👆</motion.h2>
           {isOpen && (
-
             <motion.div>
               <div className="cont">
                 <div className='text-cont'>
