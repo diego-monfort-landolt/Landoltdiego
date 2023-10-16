@@ -35,3 +35,13 @@
   box-shadow: 1px 1px 15px blue;
 
 }
+.text-section {
+  padding: 50px;
+  text-align: center;
+  border: 1px solid blue;
+  background-color: red;
+  color: #000;
+  letter-spacing: 4px;
+  box-shadow: 1px 1px 15px blue;
+  margin-bottom: 20px;
+}
