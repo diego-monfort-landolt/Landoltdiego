@@ -1,7 +1,13 @@
 import React from 'react'
 
+import AboutMe from '../component/AboutMe'
+
 export const About = () => {
   return (
-    <div>About</div>
+   <>
+   
+   <AboutMe />
+   
+   </>
   )
 }
