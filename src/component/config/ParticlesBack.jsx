@@ -9,8 +9,7 @@ const ParticlesBack = () => {
     <>
       <div className='headerabout'>
         <Particles 
-        id='tsparticles' 
-       
+        id='tsparticles'   
         init={loadParticles}
         options={{
           autoPlay: true,
@@ -597,7 +596,6 @@ const ParticlesBack = () => {
           }
         }}
          />
-
       
       </div>
 
