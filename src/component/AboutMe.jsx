@@ -1,6 +1,7 @@
 import React from 'react'
 import '../component/AboutMe.css'
-import ParticlesBack from './ParticlesBack'
+import ParticlesBack from './config/ParticlesBack'
+
 
 
 
@@ -11,7 +12,7 @@ const AboutMe = () => {
   return (
     
     <>
-   <ParticlesBack />
+  <ParticlesBack />
       <div className='about-container'>
         <div className="particlesheader">
           <h2>More About Me</h2>
