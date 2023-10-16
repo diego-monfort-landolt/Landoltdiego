@@ -3,8 +3,10 @@ import particlesConfig from './config/particle-config'
 
 const ParticlesBack = () => {
   return (
-  
-    <Particles params={particlesConfig} />
+    <Particles params={particlesConfig}>
+
+    </Particles>
+    
   )
 }
 
