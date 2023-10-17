@@ -9,7 +9,7 @@ import bild3 from '../images/mont.jpg'
 const Carusel = () => {
   return (
     <>
-         <Carousel  className='carusel-section'>
+         <Carousel dynamicHeight='20px' width='100%' autoPlay className='carusel-section'>
                 <div>
                     <img src={bild1} />
                     <p className="legend">DiegoDev</p>
