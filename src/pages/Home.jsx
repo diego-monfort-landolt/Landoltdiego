@@ -4,7 +4,6 @@ import './Home.css'
 import Card from '../component/Card'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-
 export const Home = () => {
 
   return (
