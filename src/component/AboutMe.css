@@ -13,21 +13,37 @@
 .textcont {
   align-items: center;
   padding: 20px;
-  margin: 20px 20%;
-  border: 1px solid red;
+  margin: 20px 5%;
+  border: 3px solid red;
 
   border-radius: 10px;
   box-shadow: 0 0 20px red;
   background-color: rgba(0, 0, 255, 0.377);
 
 }
+
 .textcont h3 {
-  
   padding: 10px;
-  border-radius: 0 0 20px 20px;
-  text-align: center;
-
   letter-spacing: 4px;
-  
 
+}
+.textcont .lasttext{
+ 
+  color: red;
+}
+.iconBox {
+  display: flex;
+  justify-content: center;
+ 
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+ }
+.iconBox a{
+ display: flex;
+ justify-content: center;
+
+ flex-direction: row;
+ flex-wrap: wrap;
+ margin: 5px;
 }
