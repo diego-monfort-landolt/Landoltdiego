@@ -21,6 +21,17 @@
   background-color: rgba(0, 0, 255, 0.377);
 
 }
+.textcont:nth-child(2) {
+  align-items: center;
+  padding: 20px;
+  margin: 20px 5%;
+  border: 3px solid red;
+
+  border-radius: 10px;
+  box-shadow: 0 0 20px red;
+  background-color: rgba(0, 0, 255, 0.377);
+
+}
 
 .textcont h3 {
   padding: 10px;

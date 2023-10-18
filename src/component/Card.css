@@ -9,6 +9,7 @@
   background-position: center;
   object-fit: cover;
   margin: 20px;
+  border-radius: 12px;
 }
 
 .card {
@@ -17,7 +18,7 @@
   padding: 3rem 5rem;
   border-radius: 12px;
   border: 1px solid blue;
-  box-shadow: 1px 1px 20px red;
+  box-shadow: 1px 1px 25px red;
   
 
 
@@ -65,7 +66,7 @@ animation: animation1  ease 2s infinite normal none;
   outline: none;
 
   border: 1px solid blue;
-  box-shadow: 1px 1px 10px red;
+  box-shadow: 1px 1px 30px red;
 
 
   margin-top: 20px;

@@ -36,10 +36,10 @@ const AboutMe = () => {
             /></p>
         </div>
       </div>
-      <Carusel />
+     
 
       <div className='about-container'>
-        <div className="particlesheader">
+         <div className="particlesheader">
           <h2>More About Me</h2>
 
         </div>
@@ -71,6 +71,8 @@ const AboutMe = () => {
 
 
       </div>
+
+      <Carusel />
 
     </>
   )
