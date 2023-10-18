@@ -29,7 +29,6 @@ const AboutMe = () => {
             <Typewriter
               options={{
                 strings: ['{ ¡ Your Welcome here ! }'],
-
                 autoStart: true,
                 loop: true,
 
