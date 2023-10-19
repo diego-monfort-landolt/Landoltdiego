@@ -27,14 +27,10 @@ const Card = () => {
                 <div className="img-cont">
                   <img className='card-diego-img' src={Diego} alt='a photo of me' />
                 </div>
-
               </div>
               <button onClick={oldPort} className='btn-card'>Old Portfolio</button>
             </motion.div>
-
           )}
-
-
         </motion.div>
 
       </div>

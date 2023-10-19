@@ -12,15 +12,13 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 const AboutMe = () => {
 
 
-
   return (
 
     <>
       <ParticlesBack />
       <div className='about-container'>
         <div className="particlesheader">
-          <h2>More About Me</h2>
-
+          <h2>About Me</h2>
         </div>
         <div className="textcont">
           <h3>Zu mir</h3><br />
@@ -31,17 +29,13 @@ const AboutMe = () => {
                 strings: ['{ ¡ Your Welcome here ! }'],
                 autoStart: true,
                 loop: true,
-
               }}
             /></p>
         </div>
       </div>
-     
-
       <div className='about-container'>
          <div className="particlesheader">
           <h2>More About Me</h2>
-
         </div>
         <div className="textcont">
 
@@ -54,7 +48,6 @@ const AboutMe = () => {
                 strings: ['{ ¡ Visit me on GitHub or LinkedIn !  }'],
                 autoStart: true,
                 loop: true,
-
               }}
             /></p>
           <div className='iconBox'>
@@ -64,12 +57,8 @@ const AboutMe = () => {
             <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
               <AiFillLinkedin size='50px' color='red' />
             </a>
-
           </div>
-
         </div>
-
-
       </div>
 
       <Carusel />
