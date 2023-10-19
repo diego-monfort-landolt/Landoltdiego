@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
 import '../component/AboutMe.css'
 import ParticlesBack from './config/ParticlesBack'
-import Carusel from './Carusel'
 import Typewriter from 'typewriter-effect'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import ExpSlider from './ExpSlider'
 
 
 
 
 
-const AboutMe = ({ title, description }) => {
+const AboutMe = () => {
 
 
   return (
@@ -72,7 +72,7 @@ const AboutMe = ({ title, description }) => {
         </div>
       </div>
 
-      <Carusel />
+    <ExpSlider />
 
     </>
   )
