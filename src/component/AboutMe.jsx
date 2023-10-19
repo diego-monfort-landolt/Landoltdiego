@@ -9,7 +9,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 
 
-const AboutMe = () => {
+const AboutMe = ({ title, description }) => {
 
 
   return (
@@ -22,7 +22,15 @@ const AboutMe = () => {
         </div>
         <div className="textcont">
           <h3>Zu mir</h3><br />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit error praesentium alias aperiam, laboriosam doloremque numquam. Quisquam corporis alias delectus veritatis repellendus eaque, aspernatur reprehenderit aliquid repellat amet cupiditate iste dicta omnis fugit. Minus hic perspiciatis vero laudantium. Placeat praesentium quasi, porro harum cum dolor perspiciatis voluptate! Doloremque expedita sapiente iste veniam debitis totam, ab sunt doloribus laudantium saepe commodi at est voluptatum ipsum, harum perferendis, sequi fuga corrupti consequatur ullam accusamus. Earum praesentium alias natus quia ad tempora repellat, doloribus dolorum similique libero fuga hic maxime, modi esse laudantium tempore! Repellendus nobis officia dolorum cumque nulla, cupiditate eveniet eos?</p><br />
+          <p><mark>
+            <b>¡Hola!</b>
+          </mark><br/>
+            Me alegra que te tomes el tiempo de hacer click en mis proyectos. Estoy aprendiendo programación por mi cuenta a través de Google y tutoriales de YouTube, así como algunos cursos, estoy particularmente interesado en HTML, CSS y JavaScript y me gustaría empezar con React pronto. Tengo una personalidad muy afín a la informática. En mi tiempo libre me gusta estar en la naturaleza y explorar nuevas rutas de senderismo con mi fiel compañera Amy (mi perra).
+
+            <br />
+            <br />
+            <mark>Skills:</mark><br />
+            HTML, CSS, JavaScript y React estoy aprendiendo por mi cuenta, con la ayuda de Google, compañeros de trabajo y amigos. JavaScript me entusiasma especialmente, mis próximos pasos serán aprender express y Mongodb.Me llevo bien con los sistemas operativos Windows y Linux, también con Apple - pero mi enfoque es Windows.</p><br />
           <p className='lasttext'>
             <Typewriter
               options={{
@@ -34,14 +42,17 @@ const AboutMe = () => {
         </div>
       </div>
       <div className='about-container'>
-         <div className="particlesheader">
+        <div className="particlesheader">
           <h2>More About Me</h2>
         </div>
         <div className="textcont">
 
           <h3>More...</h3><br />
 
-          <p>¡Me apasiona React y estoy completamente enamorado del mundo de la tecnología! Estoy buscando activamente oportunidades de empleo como programador y me preguntaba si podrías darme una mano en mi búsqueda.</p><br />
+          <p>Experiencia profesional:
+            En los últimos meses, he podido adquirir experiencia en el servicio de asistencia técnica, donde he tenido la oportunidad de conocer diferentes sistemas y encontrar soluciones a diversos problemas informáticos. También pude adquirir experiencia en los lenguajes PHP y XML, así como en varios scripts y trabajé con SQL y MySQL a diario. Me gustó mucho este trabajo, sin embargo, decidí dejarlo, porque sólo tenía servicios los fines de semana. Sería feliz si pudiera seguir en la dirección del desarrollo web.
+
+            Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator</p><br />
           <p className='lasttext'>
             <Typewriter
               options={{
