@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect'
 import './Home.css'
 import Card from '../component/Card'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import ExpSlider from '../component/ExpSlider';
 
 export const Home = () => {
 
@@ -36,6 +37,7 @@ export const Home = () => {
 <div className='text-section'>
   <h2>Experience</h2>
 </div>
+<ExpSlider />
 
         <div className='texto'>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque laborum eius, excepturi nemo dolor, inventore aspernatur unde iste quaerat adipisci veritatis ullam reiciendis nihil quam quibusdam odit, distinctio neque esse architecto recusandae quae dolorem? Vero dolor error id nisi reprehenderit, illum minima! Similique odio iure assumenda doloremque suscipit neque itaque? Nemo rem blanditiis veritatis, laboriosam numquam vitae officiis maiores, officia, repellendus nesciunt soluta ducimus est eaque. Qui numquam quidem nisi, ratione aut hic a? Cupiditate quod doloribus modi nobis architecto magnam hic. Quis dolorem fugiat dolor adipisci, neque, accusamus architecto iusto odio rerum ratione molestiae nobis perferendis! Quia, placea
