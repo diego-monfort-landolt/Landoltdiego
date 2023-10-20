@@ -4,6 +4,7 @@ import ParticlesBack from './config/ParticlesBack'
 import Typewriter from 'typewriter-effect'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ExpSlider from './ExpSlider'
+import Diego from '../images/diego-landolt.png'
 
 
 
@@ -24,7 +25,7 @@ const AboutMe = () => {
           <h3>Zu mir</h3><br />
           <p><mark>
             <b>¡Hola!</b>
-          </mark><br/>
+          </mark><br />
             Me alegra que te tomes el tiempo de hacer click en mis proyectos. Estoy aprendiendo programación por mi cuenta a través de Google y tutoriales de YouTube, así como algunos cursos, estoy particularmente interesado en HTML, CSS y JavaScript y me gustaría empezar con React pronto. Tengo una personalidad muy afín a la informática. En mi tiempo libre me gusta estar en la naturaleza y explorar nuevas rutas de senderismo con mi fiel compañera Amy (mi perra).
 
             <br />
@@ -43,15 +44,24 @@ const AboutMe = () => {
       </div>
       <div className='about-container'>
         <div className="particlesheader">
-          <h2>More About Me</h2>
+        </div>
+        <div className="textcont">
+          <div className="imgcont">
+            <img src={Diego} />
+          </div>
+        </div>
+      </div>
+
+      <div className='about-container'>
+        <div className="particlesheader">
+          <h2>Experiencia</h2>
         </div>
         <div className="textcont">
 
-          <h3>More...</h3><br />
+          <h3>Experiencia profesional...</h3><br />
 
           <p>Experiencia profesional:
             En los últimos meses, he podido adquirir experiencia en el servicio de asistencia técnica, donde he tenido la oportunidad de conocer diferentes sistemas y encontrar soluciones a diversos problemas informáticos. También pude adquirir experiencia en los lenguajes PHP y XML, así como en varios scripts y trabajé con SQL y MySQL a diario. Me gustó mucho este trabajo, sin embargo, decidí dejarlo, porque sólo tenía servicios los fines de semana. Sería feliz si pudiera seguir en la dirección del desarrollo web.
-
             Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator</p><br />
           <p className='lasttext'>
             <Typewriter
@@ -72,7 +82,7 @@ const AboutMe = () => {
         </div>
       </div>
 
-    <ExpSlider />
+      <ExpSlider />
 
     </>
   )

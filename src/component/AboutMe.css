@@ -1,11 +1,12 @@
 .about-container {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
   
 }
+
 .particlesheader {
   font-size: 2em;
   text-wrap: wrap;
-  margin-top: 150px;
+  margin-top: 90px;
   text-align: center;
 
 }
@@ -58,3 +59,20 @@
  flex-wrap: wrap;
  margin: 5px;
 }
+.imgcont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgcont img {
+  height: 180px;
+  object-fit: cover;
+
+  border-radius: 12px;
+  border: 2px solid red;
+  box-shadow: 0 0 30px red;
+
+}
+
+
