@@ -1,4 +1,3 @@
-
 .imagesection {
   background-image: url("../images/mont.jpg");
   background-repeat: no-repeat;
@@ -7,13 +6,14 @@
   object-fit: cover;
   width: 100%;
   height: 60vh;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .überschrift {
-  width:60%;
+  width: 60%;
   margin: 10px auto;
   text-align: center;
   background-color: rgba(10, 6, 245, 0.63);
@@ -22,9 +22,11 @@
   padding: 30px;
   box-shadow: 1px 1px 15px red;
 }
+
 .under {
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
+
 .end-header {
   padding: 50px;
   text-align: center;
@@ -35,6 +37,7 @@
   box-shadow: 1px 1px 15px blue;
 
 }
+
 .text-section {
   padding: 50px;
   text-align: center;
@@ -44,4 +47,31 @@
   letter-spacing: 4px;
   box-shadow: 1px 1px 15px blue;
   margin-bottom: 20px;
+}
+
+/*here begins Works*/
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem auto;
+}
+.cardInhalt {
+  width: 15rem;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 40px blue !important;
+  border: 1px solid red ;
+
+  margin: 2rem;
+
+  opacity: .2;
+
+}
+.cardInhalt:hover {
+  border: 2px solid blue;
+  box-shadow: 0px 0px 40px red !important;
+opacity: 1;
 }
