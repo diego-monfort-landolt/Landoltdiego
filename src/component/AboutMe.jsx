@@ -22,7 +22,7 @@ const AboutMe = () => {
           <h2>About Me</h2>
         </div>
         <div className="textcont">
-          <h3>Zu mir</h3><br />
+          <h3>Sobre mi</h3><br />
           <p><mark>
             <b>¡Hola!</b>
           </mark><br />
