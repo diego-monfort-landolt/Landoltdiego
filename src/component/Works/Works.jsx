@@ -34,9 +34,10 @@ const Works = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/borderanimation/" }} size="small">View</Button>
+            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }} size="small">View</Button>
           </CardActions>
         </Card>
+
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
@@ -52,7 +53,7 @@ const Works = () => {
             </Typography>
           </CardContent>
           <CardActions>
-            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/borderanimation/" }} size="small">View</Button>
+            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/cookie-popUp/" }} size="small">View</Button>
           </CardActions>
         </Card>
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
