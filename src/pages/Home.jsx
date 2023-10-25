@@ -9,10 +9,10 @@ import { AiOutlineHeart } from "react-icons/ai";
 import confetti from 'canvas-confetti';
 
 export const Home = () => {
-  const [like, setLike] = useState(100),
+  const [like, setLike] = useState(),
     [isLike, setIsLike] = useState(false),
     onLikeButtonClick = () => {
-      setLike(like + (isLike ? -1 : 1));
+      setLike(like + (isLike));
       setIsLike(!isLike);
       confetti()
     };

@@ -15,6 +15,8 @@ nav {
   box-shadow: 1px 0 5px blue;
   position: sticky;
   top: 0;
+
+  z-index: 30;
 }
 nav .title {
   font-family: 'Exo 2', sans-serif;
