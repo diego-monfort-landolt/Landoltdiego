@@ -77,3 +77,28 @@
 
   filter: blur(0);
 }
+.likebtn {
+  text-align: center;
+  margin: 1rem;
+}
+.like-button {
+  font-size: 2rem;
+  color:  #000;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  box-shadow: 0 0 30px red;
+
+}
+.liked {
+  font-weight: bold;
+  color: dark;
+  background-color: red;
+  box-shadow: 0px 0px 40px blue;
+  border-radius: 10px;
+  width: 10%;
+  border: 1px solid blue;
+}
