@@ -104,3 +104,16 @@
   box-shadow: 0 0 30px red;
 
 }
+
+/*text secction*/
+
+.texto {
+  margin: 2rem 10%;
+}
+
+/*last secction*/
+
+.lastsection {
+  margin: 2rem;
+  text-align: center;
+}
