@@ -66,13 +66,10 @@ export const Home = () => {
 
         </div>
         <div className='texto'>
-
-
           <p>Un junior frontend developer en busca de aventuras en el mundo del desarrollo web
+            ¡Hola a todos! Permítanme presentarme, soy un junior frontend developer apasionado por la informática y todo lo relacionado con el desarrollo web. Mi nombre es Diego y estoy emocionado de compartir un poco más sobre mí y mi experiencia en este fascinante campo.
 
-            ¡Hola a todos! Permítanme presentarme, soy un junior frontend developer apasionado por la informática y todo lo relacionado con el desarrollo web. Mi nombre es [tu nombre] y estoy emocionado de compartir un poco más sobre mí y mi experiencia en este fascinante campo.
-
-            Desde que era joven, siempre estuve interesado en la tecnología y cómo funciona. Pasaba horas frente a la computadora, explorando diferentes programas y aprendiendo todo lo que podía sobre ellos. Fue entonces cuando descubrí mi amor por la informática y su potencial para crear cosas increíbles.
+            Siempre estuve interesado en la tecnología y cómo funciona. Pasaba horas frente a la computadora, explorando diferentes programas y aprendiendo todo lo que podía sobre ellos. Fue entonces cuando descubrí mi amor por la informática y su potencial para crear cosas increíbles.
 
             A medida que crecía, mi pasión por la informática se convirtió en algo más que un simple pasatiempo. Comencé a aprender por mi cuenta sobre el desarrollo web y rápidamente me di cuenta de que era algo que quería hacer como carrera. Me fascinaba la idea de poder crear sitios web interactivos y atractivos utilizando diferentes lenguajes de programación.
 
