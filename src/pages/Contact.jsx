@@ -10,7 +10,6 @@ export const Contact = () => {
         <h2>Contact</h2>
 
       </div>
-
       <div className='texto'>
         <img src={weg} className='contactimg' alt='un caretera en la naturaleza con nubes' />
         <h3>Contacta me</h3><br />
