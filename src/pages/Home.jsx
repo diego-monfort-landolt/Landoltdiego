@@ -14,7 +14,8 @@ export const Home = () => {
     onLikeButtonClick = () => {
       setLike(like + (isLike));
       setIsLike(!isLike);
-      confetti(true)
+      confetti()
+    
     };
 
   return (
