@@ -11,11 +11,19 @@ import confetti from 'canvas-confetti';
 export const Home = () => {
   const [like, setLike] = useState(),
     [isLike, setIsLike] = useState(false),
+
+    
+  
     onLikeButtonClick = () => {
       setLike(like + (isLike));
       setIsLike(!isLike);
-      confetti()
-    
+      const scalar = 3;
+      const conf = confetti.shapeFromText({ text: '❤️', scalar });
+      confetti({
+        shapes: [conf],
+        scalar, 
+      })
+
     };
 
   return (
@@ -57,7 +65,7 @@ export const Home = () => {
             className={"like-button " + (isLike ? "liked" : "")}
             onClick={onLikeButtonClick}
           >
-            {<AiOutlineHeart />}
+            {<AiOutlineHeart color='red' />}
           </button>
 
         </div>
@@ -76,9 +84,9 @@ export const Home = () => {
 
             Mi viaje como desarrollador web comenzó con HTML y CSS. Aprendí los fundamentos básicos de la estructura y el diseño de un sitio web, y rápidamente me di cuenta de que quería profundizar en este campo. Fue entonces cuando descubrí JavaScript, un lenguaje de programación que me permitió agregar interactividad y dinamismo a mis proyectos.
 
-            Pero mi sed de conocimiento no se detuvo ahí. Quería estar al tanto de las últimas tecnologías y tendencias en el mundo del desarrollo web. Fue entonces cuando me encontré con React, una biblioteca de JavaScript que me permitió crear aplicaciones web de una manera más eficiente y escalable. Quedé impresionado por su capacidad para crear<br/>
-            <br/>
-           <mark><b>Visita mi GitHub o LinkedIn</b></mark> 
+            Pero mi sed de conocimiento no se detuvo ahí. Quería estar al tanto de las últimas tecnologías y tendencias en el mundo del desarrollo web. Fue entonces cuando me encontré con React, una biblioteca de JavaScript que me permitió crear aplicaciones web de una manera más eficiente y escalable. Quedé impresionado por su capacidad para crear<br />
+            <br />
+            <mark><b>Visita mi GitHub o LinkedIn</b></mark>
           </p><div className='lastsection'>
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='red' size='50px' />
