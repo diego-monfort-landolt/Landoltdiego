@@ -132,3 +132,30 @@
   border-radius: 15px;
   box-shadow: 0 0 40px red;
 }
+
+@media screen and (max-width: 992px) {
+
+  .like-button {
+    font-size: 3rem;
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+  
+  }
+ 
+  .liked {
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 0 0 20px red;
+  }
+
+}
