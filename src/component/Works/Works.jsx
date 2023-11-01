@@ -27,7 +27,7 @@ const Works = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              My first Portfolio
+              My Portfolio
             </Typography>
             <Typography variant="body2" color="text.secondary">
               My first Portfolio created with HTML,CSS JavaScript through a youtube video tutorial
