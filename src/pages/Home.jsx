@@ -7,6 +7,7 @@ import ExpSlider from '../component/ExpSlider';
 import Works from '../component/Works/Works';
 import { AiOutlineHeart } from "react-icons/ai";
 import confetti from 'canvas-confetti';
+import Time from '../component/clock/time';
 
 export const Home = () => {
   const [like, setLike] = useState(),
@@ -96,6 +97,7 @@ export const Home = () => {
             </a>
           </div>
         </div>
+        <Time />
       </main>
 
     </>
