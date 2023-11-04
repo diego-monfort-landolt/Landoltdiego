@@ -13,8 +13,6 @@ export const Home = () => {
   const [like, setLike] = useState(),
     [isLike, setIsLike] = useState(false),
 
-    
-  
     onLikeButtonClick = () => {
       setLike(like + (isLike));
       setIsLike(!isLike);
@@ -24,7 +22,6 @@ export const Home = () => {
         shapes: [conf],
         scalar, 
       })
-
     };
 
   return (
@@ -48,7 +45,6 @@ export const Home = () => {
           </div>
         </div>
       </div >
-
       <main className='main'>
         <div className='main-container'>
           <h2 className='end-header'>Hey there 👋 </h2>
@@ -73,7 +69,6 @@ export const Home = () => {
 
         <div className='text-section'>
           <h2>Sobre mí</h2>
-
         </div>
         <div className='texto'>
           <p>Un junior frontend developer en busca de aventuras en el mundo del desarrollo web
@@ -99,7 +94,6 @@ export const Home = () => {
         </div>
         <Time />
       </main>
-
     </>
   )
 }
