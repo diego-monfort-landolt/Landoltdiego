@@ -64,9 +64,7 @@ export const Home = () => {
           >
             {<AiOutlineHeart color='red' />}
           </button>
-
         </div>
-
         <div className='text-section'>
           <h2>Sobre mí</h2>
         </div>
