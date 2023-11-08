@@ -4,9 +4,8 @@
   height: 150px;
   object-fit: cover;
 }
-.contT {
- margin: 50px 0 40px 0;
-  text-align: center;
+.ContactCon {
+  margin: 50px 0 40px 0;
 }
 .contact-img {
   border: 3px solid red;

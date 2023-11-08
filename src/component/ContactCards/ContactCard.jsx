@@ -11,7 +11,6 @@ const ContactCard = () => {
   return (
     <>
     <div className='ContactCon'>
-      <h2 className='contT'>Unas cuantas imagenes...</h2>
       <div className='contact-img'>
         <img className='conimg' src={im1} alt='' />
         <img className='conimg' src={im2} alt='' />
