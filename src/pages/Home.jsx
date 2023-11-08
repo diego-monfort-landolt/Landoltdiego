@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 import Typewriter from 'typewriter-effect'
 import './Home.css'
 import Card from '../component/Card'
@@ -23,6 +23,7 @@ export const Home = () => {
         scalar, 
       })
     };
+
   return (
     <>
       <div className='mainsection'>
@@ -51,8 +52,10 @@ export const Home = () => {
         </div>
         <div className='text-section'>
           <h2>Experience</h2>
+
         </div>
         <ExpSlider />
+
         <Works />
         <div className='likebtn'>
           <button
