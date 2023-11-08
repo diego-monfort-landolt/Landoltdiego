@@ -1,7 +1,8 @@
-import React from 'react'
+
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import '../pages/Home.css'
 import weg from '../images/camino.jpg'
+import ContactCard from '../component/ContactCards/ContactCard';
 
 export const Contact = () => {
   return (
@@ -30,6 +31,7 @@ export const Contact = () => {
             <AiFillLinkedin size='50px' color='red' />
           </a>
         </div>
+        <ContactCard />
       </div>
 
     </>
