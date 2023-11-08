@@ -13,12 +13,12 @@ const ContactCard = () => {
     <div className='ContactCon'>
       <h2 className='contT'>Unas cuantas imagenes...</h2>
       <div className='contact-img'>
-        <img src={im1} alt='' />
-        <img src={im2} alt='' />
-        <img src={im3} alt='' />
-        <img src={im4} alt='' />
-        <img src={im5} alt='' />
-        <img src={im6} alt='' />
+        <img className='conimg' src={im1} alt='' />
+        <img className='conimg' src={im2} alt='' />
+        <img className='conimg' src={im3} alt='' />
+        <img className='conimg' src={im4} alt='' />
+        <img className='conimg' src={im5} alt='' />
+        <img className='conimg' src={im6} alt='' />
       </div>
     </div>
     </>
