@@ -4,10 +4,7 @@ import './App.css'
 import { Navbar } from './component/Navbar'
 import { About, Contact, Home } from './pages/'
 
-
 function App() {
-
-
   return (
     <>
       <Navbar />
@@ -16,7 +13,6 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
-
     </>
   )
 }

@@ -5,8 +5,6 @@
   border-top: 1px solid blue;
 
 }
-
-
 nav {
   display: flex;
   justify-content: space-between;
@@ -15,9 +13,7 @@ nav {
   box-shadow: 1px 0 5px blue;
   position: sticky;
   top: 0;
-
   padding: 0 20px 0 20px;
-
   z-index: 30;
 }
 nav .title {
@@ -26,20 +22,16 @@ nav .title {
   margin: 1rem;
   padding: 5px;
   letter-spacing: 3px;
-
   text-decoration: none;
   color: red !important;
   border-bottom: 1px solid blue;
   border-left: 1px solid blue;
   text-shadow: 5px 5px 10px blue;
-
   border-radius: 15px 0 0 15px;
-
 }
 
 nav ul {
   display: flex;
-
 }
 nav ul li {
   list-style: none;
@@ -99,17 +91,14 @@ nav .menu span {
     display: none;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 0.25rem;
-    
-
+    margin-bottom: 0.25rem;  
   }
   nav ul.open {
     display: flex;
   }
   nav ul li {
     width: 100%;
-    text-align: center;
-   
+    text-align: center; 
   }
   nav ul li a {
     margin: 0.2rem 0.5rem;

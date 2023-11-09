@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
 
@@ -8,7 +8,6 @@ export const Navbar = () => {
     <>
       <nav>
         <Link to='/' className='title'><h2>DiegoDev</h2></Link>
-
         <div className='menu' onClick={() => {
           setMenuOpen(!menuOpen)
         }} >
@@ -27,7 +26,6 @@ export const Navbar = () => {
             <NavLink to='contact'>Contact</NavLink>
           </li>
         </ul>
-
       </nav>
 
     </>
