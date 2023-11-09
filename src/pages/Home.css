@@ -11,7 +11,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .überschrift {
   width: 60%;
   margin: 10px auto;
@@ -22,24 +21,18 @@
   padding: 30px;
   box-shadow: 1px 1px 45px red;
 }
-
-
 .under {
   margin-bottom: 20px;
 }
-
-
 .end-header {
   padding: 50px;
   text-align: center;
   border: 1px solid blue;
   background-color: red;
   color: #000;
-
   box-shadow: 1px 1px 30px blue;
 
 }
-
 .text-section {
   padding: 50px;
   text-align: center;
@@ -66,10 +59,7 @@
   border-radius: 1rem;
   box-shadow: 0px 0px 40px blue !important;
   border: 1px solid red ;
-
   margin: 2rem;
-
- 
   filter: blur(2.5px);
 
 }
@@ -97,65 +87,53 @@
   align-items: center;
   justify-content: center;
   margin: 5px auto;
-
 }
 .liked {
   background-color: purple;
   border-radius: 10px;
   box-shadow: 0 0 40px red;
 }
-
 /*text secction*/
-
 .texto {
   margin: 2rem 10%;
 }
-
 /*last secction*/
-
 .lastsection {
   margin: 2rem;
   text-align: center;
 }
-
 /*Contact styles*/
-
 .contactimg {
   display: flex;
   flex-wrap: wrap;
   object-fit: cover;
-  
   height: 290px;
   width: 90%;
-
   margin: 2rem auto;
   border-radius: 15px;
   box-shadow: 0 0 40px red;
 }
-
 @media screen and (max-width: 992px) {
 
   .like-button {
     font-size: 3rem;
     width: 15%;
     text-align: center;
+
     justify-content: center;
     padding: 10px;
     border-radius: 10px;
     border: none;
+
     background-color: transparent;
-  
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px auto;
-  
   }
- 
   .liked {
     background-color: purple;
     border-radius: 10px;
     box-shadow: 0 0 20px red;
   }
-
 }

@@ -9,14 +9,11 @@ export const Contact = () => {
     <>
       <div className='text-section'>
         <h2>Contact</h2>
-
       </div>
       <div className='texto'>
         <img src={weg} className='contactimg' alt='un caretera en la naturaleza con nubes' />
         <h3>Contacta me</h3><br />
-
         <p>Me encanta el trabajo remoto y creo que somos mas productivos, trabajando desde un sitio que nos sentimos bien.
-
           Sie me quieres contactar te dejo mis enlaces de github y LinkedIn
           hasta pronto y gracias por tu tiempo
           <br />
@@ -31,7 +28,6 @@ export const Contact = () => {
             <AiFillLinkedin size='50px' color='red' />
           </a>
         </div>
-        
       </div>
 
     </>

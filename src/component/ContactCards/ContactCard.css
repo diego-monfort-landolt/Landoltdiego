@@ -17,16 +17,13 @@
   grid-template-columns: repeat(
     auto-fill,
     minmax(200px, 1fr)
-  );
+    );
   gap: 15px;
-
   overflow: hidden;
   padding: 10px;
 }
-
 .contact-img .conimg {
   border: 1px solid blue;
-  
   border-radius: 5px;
   width: 100%;
 }

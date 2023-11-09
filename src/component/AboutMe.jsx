@@ -7,14 +7,8 @@ import Diego from '../images/diego-landolt.png'
 
 import ContactCard from '../component/ContactCards/ContactCard';
 
-
-
-
 const AboutMe = () => {
-
-
   return (
-
     <>
       <ParticlesBack />
       <div className='about-container'>
@@ -27,7 +21,6 @@ const AboutMe = () => {
             <b>¡Hola!</b>
           </mark><br />
             Me alegra que te tomes el tiempo de hacer click en mis proyectos. Estoy aprendiendo programación por mi cuenta a través de Google y tutoriales de YouTube, así como algunos cursos, estoy particularmente interesado en HTML, CSS, JavaScript y con React.
-
             <br />
             <br />
             <mark>Skills:</mark><br />
@@ -82,10 +75,7 @@ const AboutMe = () => {
         </div>
         <ContactCard />
       </div>
-     
-
       <ExpSlider />
-
     </>
   )
 }

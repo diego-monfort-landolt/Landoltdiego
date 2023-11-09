@@ -1,17 +1,12 @@
 .about-container {
-  margin: 50px 10%;
-  
-  
+  margin: 50px 10%; 
 }
-
 .particlesheader {
   font-size: 2em;
   text-wrap: wrap;
   margin-top: 90px;
   text-align: center;
-
 }
-
 .textcont {
   align-items: center;
   padding: 20px;
@@ -21,7 +16,6 @@
   border-radius: 10px;
   box-shadow: 0 0 20px red;
   background-color: rgba(0, 0, 255, 0.377);
-
 }
 .textcont:nth-child(2) {
   align-items: center;
@@ -32,22 +26,17 @@
   border-radius: 10px;
   box-shadow: 0 0 20px red;
   background-color: rgba(0, 0, 255, 0.377);
-
 }
-
 .textcont h3 {
   padding: 10px;
   letter-spacing: 4px;
-
 }
 .textcont .lasttext{
- 
   color: red;
 }
 .iconBox {
   display: flex;
   justify-content: center;
- 
   flex-direction: row;
   flex-wrap: wrap;
   
@@ -55,7 +44,6 @@
 .iconBox a{
  display: flex;
  justify-content: center;
-
  flex-direction: row;
  flex-wrap: wrap;
  margin: 5px;
@@ -69,11 +57,9 @@
 .imgcont img {
   height: 180px;
   object-fit: cover;
-
   border-radius: 12px;
   border: 2px solid red;
   box-shadow: 0 0 30px red;
-
 }
 
 
