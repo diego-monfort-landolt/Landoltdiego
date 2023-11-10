@@ -4,7 +4,6 @@
   margin: auto;
   overflow: hidden;
 }
-
 .slider .slide-track {
   display: flex;
   justify-content: center;
@@ -13,19 +12,15 @@
   -webkit-animation: scroll 40s linear infinite;
   width: calc(200px * 10);
 }
-
 .slider .slide {
   width: 100px;
 }
-
 .slider .slide img {
   width: 100%;
   object-fit: cover;
   padding: 20px;
   
 }
-
-
 @keyframes scroll {
   0% {
     -webkit-transform: translateX(0);
