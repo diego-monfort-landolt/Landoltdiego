@@ -4,7 +4,6 @@ import Typewriter from 'typewriter-effect'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ExpSlider from './ExpSlider'
 import Diego from '../images/diego-landolt.png'
-
 import ContactCard from '../component/ContactCards/ContactCard';
 
 const AboutMe = () => {
@@ -44,15 +43,12 @@ const AboutMe = () => {
           </div>
         </div>
       </div>
-
       <div className='about-container'>
         <div className="particlesheader">
           <h2>Experiencia</h2>
         </div>
         <div className="textcont">
-
           <h3>Experiencia profesional...</h3><br />
-
           <p>Experiencia profesional:
             En los últimos meses, he podido adquirir experiencia en el servicio de asistencia técnica, donde he tenido la oportunidad de conocer diferentes sistemas y encontrar soluciones a diversos problemas informáticos. También pude adquirir experiencia en los lenguajes PHP y XML, así como en varios scripts y trabajé con SQL y MySQL a diario.
             </p><br />
