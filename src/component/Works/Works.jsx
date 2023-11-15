@@ -11,9 +11,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-
-
-
 const Works = () => {
 
   return (
@@ -37,7 +34,6 @@ const Works = () => {
             <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }} size="small">View</Button>
           </CardActions>
         </Card>
-
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
