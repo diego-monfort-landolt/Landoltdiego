@@ -60,7 +60,6 @@ const ExpSlider = () => {
           </div>
         </div>
       </div>
-
     </>
   )
 }
