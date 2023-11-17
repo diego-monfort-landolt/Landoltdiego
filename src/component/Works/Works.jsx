@@ -4,7 +4,6 @@ import cardbackground from '../../images/cardbackground.png'
 import cookieBuild from '../../images/cookieBuild.png'
 import firstportfolio from '../../images/firstportfolio.png'
 import TictacToe from '../../images/tictactoe.png'
-
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -22,7 +21,6 @@ const Works = () => {
           <CardMedia
             sx={{ height: 180 }}
             image={firstportfolio}
-
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -36,7 +34,6 @@ const Works = () => {
             <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }} size="small">View</Button>
           </CardActions>
         </Card>
-
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
@@ -55,12 +52,10 @@ const Works = () => {
             <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/TicTacToe/" }} size="small">View</Button>
           </CardActions>
         </Card>
-        
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
             image={cookieBuild}
-
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
@@ -115,6 +110,4 @@ const Works = () => {
     </>
   )
 }
-
-
 export default Works
