@@ -3,6 +3,7 @@ import letter from '../../images/letter.png'
 import cardbackground from '../../images/cardbackground.png'
 import cookieBuild from '../../images/cookieBuild.png'
 import firstportfolio from '../../images/firstportfolio.png'
+import TictacToe from '../../images/tictactoe.png'
 
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -10,6 +11,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+
 
 const Works = () => {
 
@@ -34,6 +36,26 @@ const Works = () => {
             <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }} size="small">View</Button>
           </CardActions>
         </Card>
+
+        <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 180 }}
+            image={TictacToe}
+
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              TicTacToe -lets play...
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Learn to build a Tictactoe
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/TicTacToe/" }} size="small">View</Button>
+          </CardActions>
+        </Card>
+        
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
