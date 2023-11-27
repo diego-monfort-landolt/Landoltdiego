@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import Typewriter from 'typewriter-effect'
 import './Home.css'
 import Card from '../component/Card'
@@ -47,7 +47,9 @@ export const Home = () => {
       </div >
       <main className='main'>
         <div className='main-container'>
+
           <h2 className='end-header'>Hey there 👋 </h2>
+        
           <Card />
         </div>
         <div className='text-section'>
