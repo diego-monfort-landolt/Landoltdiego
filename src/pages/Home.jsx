@@ -12,7 +12,6 @@ import Time from '../component/clock/time';
 export const Home = () => {
   const [like, setLike] = useState(),
     [isLike, setIsLike] = useState(false),
-
     onLikeButtonClick = () => {
       setLike(like + (isLike));
       setIsLike(!isLike);

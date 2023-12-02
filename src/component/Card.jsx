@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import '../component/Card.css'
 import Diego from '../images/diego-landolt.png'
@@ -7,9 +7,7 @@ import Diego from '../images/diego-landolt.png'
 const Card = () => {
 
   const [isOpen, setIsOpen] = useState(false)
-  const heart = () => {
-    setLike(innerHTML.style.color = 'red')
-  }
+ 
   return (
     <>
       <div className='card-container'>
@@ -19,7 +17,7 @@ const Card = () => {
             <motion.div>
               <div className="cont">
                 <div className='text-cont'>
-                  <p>Bienvenidos a mi nuevo portfolio, creado con React vite. espero que os guste. actualmente sigo aprendiendo react y javascript ya que quiero trabajar en este sector. echar un vistazo a mi web y si quereis contactar conmigo podeis hacerlo via linkedin o github.</p>
+                  <p>Bienvenidos a mi portfolio, creado con React vite. espero que os guste. actualmente sigo aprendiendo react y javascript ya que quiero trabajar en este sector. echar un vistazo a mi web y si quereis contactar conmigo podeis hacerlo via linkedin o github.</p>
                   <p><b>Espero que te guste</b> </p>
                 </div>
                 <div className="img-cont">
