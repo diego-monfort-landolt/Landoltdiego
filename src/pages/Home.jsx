@@ -35,6 +35,7 @@ export const Home = () => {
                 loop: true,
               }}
             /></h2>
+            
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='black' size='40px' />
             </a>
