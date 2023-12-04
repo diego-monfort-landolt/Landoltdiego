@@ -35,7 +35,7 @@ export const Home = () => {
                 loop: true,
               }}
             /></h2>
-            
+
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='black' size='40px' />
             </a>
@@ -47,9 +47,7 @@ export const Home = () => {
       </div >
       <main className='main'>
         <div className='main-container'>
-
           <h2 className='end-header'>Hey there 👋 </h2>
-        
           <Card />
         </div>
         <div className='text-section'>
