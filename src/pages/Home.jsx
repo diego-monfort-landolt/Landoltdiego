@@ -1,27 +1,20 @@
-import  { useState } from 'react'
 import Typewriter from 'typewriter-effect'
+import { useState, useEffect } from 'react';
 import './Home.css'
 import Card from '../component/Card'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ExpSlider from '../component/ExpSlider';
 import Works from '../component/Works/Works';
-import { AiOutlineHeart } from "react-icons/ai";
-import confetti from 'canvas-confetti';
+
 import Time from '../component/clock/time';
+import Footer from '../component/Footer';
 
 export const Home = () => {
-  const [like, setLike] = useState(),
-    [isLike, setIsLike] = useState(false),
-    onLikeButtonClick = () => {
-      setLike(like + (isLike));
-      setIsLike(!isLike);
-      const scalar = 3;
-      const conf = confetti.shapeFromText({ text: '❤️', scalar });
-      confetti({
-        shapes: [conf],
-        scalar, 
-      })
-    };
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
 
   return (
     <>
@@ -47,24 +40,14 @@ export const Home = () => {
       </div >
       <main className='main'>
         <div className='main-container'>
-          <h2 className='end-header'>Hey there 👋 </h2>
+          <h2   className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>Bienvenido 👋 </h2>
           <Card />
         </div>
         <div className='text-section'>
-          <h2>Experience</h2>
-
+          <h2>Experiencia</h2>
         </div>
         <ExpSlider />
-
         <Works />
-        <div className='likebtn'>
-          <button
-            className={"like-button " + (isLike ? "liked" : "")}
-            onClick={onLikeButtonClick}
-          >
-            {<AiOutlineHeart color='red' />}
-          </button>
-        </div>
         <div className='text-section'>
           <h2>Sobre mí</h2>
         </div>
@@ -92,6 +75,7 @@ export const Home = () => {
         </div>
         <Time />
       </main>
+      <Footer />
     </>
   )
 }

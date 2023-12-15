@@ -1,0 +1,22 @@
+.footer {
+  height: 70px;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+}
+.appear-animation {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.appear-animation.visible {
+  opacity: 1;
+}
