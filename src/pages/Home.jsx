@@ -44,6 +44,7 @@ export const Home = () => {
           <Card />
         </div>
         <div className='text-section'>
+          
           <h2>Experiencia</h2>
         </div>
         <ExpSlider />
