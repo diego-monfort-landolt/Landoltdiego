@@ -8,11 +8,9 @@ function Footer() {
     setIsVisible(true);
   }, []);
  
-  
   return (
     <>
     <div className='footer'>
-      
       <div className={`appear-animation ${isVisible ? 'visible' : ''}`}>
       <p>Creat by DiegoDev | React - Vite - JS | 2023 España</p>
     </div>
