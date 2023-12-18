@@ -104,6 +104,9 @@
   margin: 2rem;
   text-align: center;
 }
+a:hover {
+ border-bottom: 1px solid red;
+}
 /*Contact styles*/
 .contactimg {
   display: flex;

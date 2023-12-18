@@ -54,8 +54,8 @@ export const Home = () => {
           <h2>Sobre mí</h2>
         </div>
         <div className='texto'>
-          <p>Un junior frontend developer en busca de aventuras en el mundo del desarrollo web
-            ¡Hola a todos! Permítanme presentarme, soy un junior frontend developer apasionado por la informática y todo lo relacionado con el desarrollo web. Mi nombre es Diego y estoy emocionado de compartir un poco más sobre mí y mi experiencia en este fascinante campo.
+          <p>
+            ¡Hola a todos! Permítanme presentarme,  mi nombre es Diego y estoy emocionado de compartir un poco más sobre mí y mi experiencia.
 
             Siempre estuve interesado en la tecnología y cómo funciona. Pasaba horas frente a la computadora, explorando diferentes programas y aprendiendo todo lo que podía sobre ellos. Fue entonces cuando descubrí mi amor por la informática y su potencial para crear cosas increíbles.
 
@@ -63,7 +63,7 @@ export const Home = () => {
 
             Mi viaje como desarrollador web comenzó con HTML y CSS. Aprendí los fundamentos básicos de la estructura y el diseño de un sitio web, y rápidamente me di cuenta de que quería profundizar en este campo. Fue entonces cuando descubrí JavaScript, un lenguaje de programación que me permitió agregar interactividad y dinamismo a mis proyectos.
 
-            Pero mi sed de conocimiento no se detuvo ahí. Quería estar al tanto de las últimas tecnologías y tendencias en el mundo del desarrollo web. Fue entonces cuando me encontré con React, una biblioteca de JavaScript que me permitió crear aplicaciones web de una manera más eficiente y escalable. Quedé impresionado por su capacidad para crear<br />
+            Pero mi sed de conocimiento no se detuvo ahí. Quería estar al tanto de las últimas tecnologías y tendencias en el mundo del desarrollo web. Fue entonces cuando me encontré con TypeScript y React, una biblioteca de JavaScript que me permitió crear aplicaciones web de una manera más eficiente y escalable.<br />
             <br />
             <mark><b>Visita mi GitHub o LinkedIn</b></mark>
           </p><div className='lastsection'>

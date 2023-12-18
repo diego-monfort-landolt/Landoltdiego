@@ -74,6 +74,9 @@ nav .menu span {
   background-color: white;
   border-radius: 0.2rem;
 }
+nav ul li a:hover {
+  border-bottom: none;
+}
 
 @media (max-width: 480px) {
   .active {

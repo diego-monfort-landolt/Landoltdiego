@@ -7,15 +7,16 @@ function Footer() {
   useEffect(() => {
     setIsVisible(true);
   }, []);
+
  
-  return (
+  return ( 
     <>
-    <div className='footer'>
+    
+    <div className='footer'>  
       <div className={`appear-animation ${isVisible ? 'visible' : ''}`}>
       <p>DiegoDev | React - Vite - JS | 2023 España</p>
     </div>
     </div>
-    
     </>
   )
 }
