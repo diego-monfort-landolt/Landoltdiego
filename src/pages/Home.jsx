@@ -8,10 +8,10 @@ import Works from '../component/Works/Works';
 
 import Time from '../component/clock/time';
 import Footer from '../component/Footer';
+import Popup from '../component/PopUp';
 
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
     setIsVisible(true);
   }, []);
@@ -19,6 +19,7 @@ export const Home = () => {
   return (
     <>
       <div className='mainsection'>
+        <Popup />
         <div className='imagesection'>
           <div className='überschrift'>
             <h2 className='under'><Typewriter
@@ -28,7 +29,6 @@ export const Home = () => {
                 loop: true,
               }}
             /></h2>
-
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='black' size='40px' />
             </a>
@@ -38,6 +38,7 @@ export const Home = () => {
           </div>
         </div>
       </div >
+
       <main className='main'>
         <div className='main-container'>
           <h2   className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>Bienvenido 👋 </h2>
