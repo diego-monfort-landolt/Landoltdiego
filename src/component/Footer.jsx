@@ -14,7 +14,7 @@ function Footer() {
     
     <div className='footer'>  
       <div className={`appear-animation ${isVisible ? 'visible' : ''}`}>
-      <p>DiegoDev | React - Vite - JS | 2023 España</p>
+      <p>DiegoDev | <code>React - Vite - JS</code> | 2023 España</p>
     </div>
     </div>
     </>

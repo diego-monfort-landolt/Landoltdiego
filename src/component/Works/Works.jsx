@@ -1,14 +1,11 @@
-import React from 'react'
 import letter from '../../images/letter.png'
 import cardbackground from '../../images/cardbackground.png'
 import cookieBuild from '../../images/cookieBuild.png'
 import firstportfolio from '../../images/firstportfolio.png'
 import TictacToe from '../../images/tictactoe.png'
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 

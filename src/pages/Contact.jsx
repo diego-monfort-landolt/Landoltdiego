@@ -2,6 +2,7 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import '../pages/Home.css'
 import weg from '../images/camino.jpg'
+import Footer from "../component/Footer";
 
 
 export const Contact = () => {
@@ -29,6 +30,7 @@ export const Contact = () => {
           </a>
         </div>
       </div>
+      <Footer />
 
     </>
   )
