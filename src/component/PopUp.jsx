@@ -21,7 +21,6 @@ const Popup = () => {
             <button className="close" onClick={() => {setShowPopup(false)}}>❌</button>
           </div>
         </div>
-        
       )}
     </>
   );}

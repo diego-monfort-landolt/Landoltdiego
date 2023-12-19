@@ -22,17 +22,15 @@ const Works = () => {
             sx={{ height: 180 }}
             image={firstportfolio}
           />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }}>
+            <Typography  gutterBottom variant="h5" component="div">
               My Portfolio
             </Typography>
             <Typography variant="body2" color="text.secondary">
               My first Portfolio created with HTML,CSS JavaScript through a youtube video tutorial
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }} size="small">View</Button>
-          </CardActions>
+         
         </Card>
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
@@ -40,7 +38,7 @@ const Works = () => {
             image={TictacToe}
 
           />
-          <CardContent>
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/TicTacToe/" }}>
             <Typography gutterBottom variant="h5" component="div">
               TicTacToe -lets play...
             </Typography>
@@ -48,16 +46,13 @@ const Works = () => {
               Learn to build a Tictactoe
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/TicTacToe/" }} size="small">View</Button>
-          </CardActions>
         </Card>
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
             image={cookieBuild}
           />
-          <CardContent>
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/cookie-popUp/" }}>
             <Typography gutterBottom variant="h5" component="div">
               My first Cookie
             </Typography>
@@ -65,9 +60,6 @@ const Works = () => {
               My first cookie created with HTML,CSS JavaScript through a youtube video
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/cookie-popUp/" }} size="small">View</Button>
-          </CardActions>
         </Card>
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
@@ -75,7 +67,7 @@ const Works = () => {
             image={cardbackground}
 
           />
-          <CardContent>
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/borderanimation/" }}>
             <Typography gutterBottom variant="h5" component="div">
               Border Animation
             </Typography>
@@ -83,9 +75,7 @@ const Works = () => {
               Border animation HTML and CSS. One of my first projects i hope you like it
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/borderanimation/" }} size="small">View</Button>
-          </CardActions>
+         
         </Card>
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
@@ -93,7 +83,7 @@ const Works = () => {
             image={letter}
 
           />
-          <CardContent>
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/hiddenletter/" }}>
             <Typography gutterBottom variant="h5" component="div">
               Find the Letter
             </Typography>
@@ -102,9 +92,6 @@ const Works = () => {
               this game was created with react vite.
             </Typography>
           </CardContent>
-          <CardActions>
-            <Button onClick={() => { location = "https://diego-monfort-landolt.github.io/hiddenletter/" }} size="small">Lets Play</Button>
-          </CardActions>
         </Card>
       </div>
     </>
