@@ -17,8 +17,7 @@ const Card = () => {
             <motion.div>
               <div className="cont">
                 <div className='text-cont'>
-                  <p>Bienvenidos a mi portfolio, creado con React vite. espero que os guste. actualmente sigo aprendiendo react y javascript ya que quiero trabajar en este sector. echar un vistazo a mi web y si quereis contactar conmigo podeis hacerlo via linkedin o github.</p>
-                  <p><b>Espero que te guste</b> </p>
+                  <p>Bienvenidos a mi portfolio, creado con React vite. Actualmente sigo aprendiendo react, TypeScript y node.js ya que quiero trabajar en este sector. Echar un vistazo a mis projectos y si quereis contactar conmigo podeis hacerlo por los iconos de Linkedin o Github.</p>
                 </div>
                 <div className="img-cont">
                   <img className='card-diego-img' src={Diego} alt='a photo of me' />

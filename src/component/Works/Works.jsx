@@ -7,13 +7,13 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-
+import './Works.css'
 
 const Works = () => {
 
   return (
     <>
-      <div className='cardContainer'>
+      <div className='cardContainer works-cont'>
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
