@@ -10,6 +10,7 @@
   object-fit: cover;
   margin: 20px;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .card {
