@@ -41,13 +41,13 @@ export const Home = () => {
 
       <main className='main'>
         <div className='main-container'>
-          <h2   className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>   <h2 className='under'><Typewriter
+          <h3   className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>   <h3 className='under'><Typewriter
               options={{
                 strings: ['Bienvenido 👋 ', '{ Welcome }', 'Herzlich Wilkommen' ],
                 autoStart: true,
                 loop: true,
               }}
-            /></h2> </h2>
+            /></h3></h3>
           <Card />
         </div>
         <div className='text-section'>

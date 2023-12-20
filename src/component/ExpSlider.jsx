@@ -1,4 +1,3 @@
-import React from 'react'
 import '../component/ExpSlider.css' // Prüfen fals
 import Bild1 from '../images/html.png'
 import Bild2 from '../images/css.png'
