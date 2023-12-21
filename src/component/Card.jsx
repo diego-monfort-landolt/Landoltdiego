@@ -21,8 +21,7 @@ const Card = () => {
                   <div className="img-cont">
                   <img className='card-diego-img' src={Diego} alt='a photo of me' />
                 </div>
-                </div>
-                
+                </div> 
               </div>
             </motion.div>
           )}
