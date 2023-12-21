@@ -5,7 +5,6 @@ import Card from '../component/Card'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ExpSlider from '../component/ExpSlider';
 import Works from '../component/Works/Works';
-
 import Time from '../component/clock/time';
 import Footer from '../component/Footer';
 import Popup from '../component/PopUp';
@@ -38,20 +37,18 @@ export const Home = () => {
           </div>
         </div>
       </div >
-
       <main className='main'>
         <div className='main-container'>
-          <h3   className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>   <h3 className='under'><Typewriter
-              options={{
-                strings: ['Bienvenido 👋 ', '{ Welcome }', 'Herzlich Wilkommen' ],
-                autoStart: true,
-                loop: true,
-              }}
-            /></h3></h3>
+          <h3 className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>   <h3 className='under'><Typewriter
+            options={{
+              strings: ['Bienvenido 👋 ', '{ Welcome }', 'Herzlich Wilkommen'],
+              autoStart: true,
+              loop: true,
+            }}
+          /></h3></h3>
           <Card />
         </div>
         <div className='text-section'>
-          
           <h2>Experiencia</h2>
         </div>
         <ExpSlider />
