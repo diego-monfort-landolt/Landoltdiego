@@ -23,7 +23,7 @@ export const Home = () => {
           <div className='überschrift'>
             <h2 className='under'><Typewriter
               options={{
-                strings: ['Welcome to my Portfolio', '{ I m DiegoDev }'],
+                strings: ['Bienvenido 👋 ', 'Welcome to my Portfolio', 'Herzlich Wilkommen', '{ I m DiegoDev }'],
                 autoStart: true,
                 loop: true,
               }}
@@ -39,13 +39,7 @@ export const Home = () => {
       </div >
       <main className='main'>
         <div className='main-container'>
-          <h3 className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>   <h3 className='under'><Typewriter
-            options={{
-              strings: ['Bienvenido 👋 ', '{ Welcome }', 'Herzlich Wilkommen'],
-              autoStart: true,
-              loop: true,
-            }}
-          /></h3></h3>
+          <h3 className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>Un poco de mi... </h3>
           <Card />
         </div>
         <div className='text-section'>
