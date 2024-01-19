@@ -16,7 +16,6 @@ const Time = () => {
      <div className='time-container'>
       <h2>{ currentTime }</h2>
     </div>
-    
     </>
   )
 }

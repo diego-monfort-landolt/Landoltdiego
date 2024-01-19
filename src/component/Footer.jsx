@@ -10,12 +10,11 @@ function Footer() {
 
  
   return ( 
-    <>
-    
+    <> 
     <div className='footer'>  
       <div className={`appear-animation ${isVisible ? 'visible' : ''}`}>
-      <p>DiegoDev | <code>React - Vite - JS</code> | España</p>
-    </div>
+        <p>DiegoDev | <code>React - Vite - JS</code> | España</p>
+      </div>
     </div>
     </>
   )
