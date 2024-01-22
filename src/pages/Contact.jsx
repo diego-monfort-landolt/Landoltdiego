@@ -9,7 +9,7 @@ export const Contact = () => {
   return (
     <>
       <div className='text-section'>
-        <h2>Contact</h2>
+        <h2>Contacto</h2>
       </div>
       <div className='texto'>
         <img src={weg} className='contactimg' alt='un caretera en la naturaleza con nubes' />
