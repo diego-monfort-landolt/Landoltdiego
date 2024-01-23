@@ -8,6 +8,8 @@ import Works from '../component/Works/Works';
 import Time from '../component/clock/time';
 import Footer from '../component/Footer';
 import Popup from '../component/PopUp';
+import Review from '../component/experience-cards/Review';
+
 
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -72,6 +74,7 @@ export const Home = () => {
             </a>
           </div>
         </div>
+        <Review />
         <Time />
       </main>
       <Footer />
