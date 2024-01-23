@@ -1,4 +1,5 @@
 import './review.css'
+import PropTypes  from 'prop-types'
 
 const Review = ({ title, text, image }) => {
   return (
@@ -12,6 +13,12 @@ const Review = ({ title, text, image }) => {
     </div>
     </>
   )
+}
+Review.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string,
+  image: PropTypes.string
+
 }
 
 export default Review
