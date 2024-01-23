@@ -1,11 +1,24 @@
 .review {
   background-color: #f8f9fa;
   border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px red;
   max-width: 300px;
-  margin: auto;
+  margin: 20px 20px;
   text-align: center;
   font-family: arial;
+  border: 2px solid red;
+}
+
+.review-img {
+  width: 100%;
+  height: auto;
+}
+
+.review img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-top: 30px;
 }
 
 .review-body {
@@ -15,13 +28,26 @@
 .review-title {
   color: #333;
   font-size: 18px;
-  padding: 20px;
+  padding: 5px;
 }
 
 .review-text {
   color: #777;
   font-size: 16px;
+  text-align: left;
 }
+
+
+/* heer start is reviewS style*/
+.review-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10%;
+}
+/* heer END is reviewS style*/
 
 /* Responsive styles */
 @media screen and (max-width: 600px) {
@@ -35,5 +61,6 @@
 
   .review-text {
     font-size: 14px;
+    text-align: left;
   }
 }

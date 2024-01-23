@@ -8,7 +8,8 @@ import Works from '../component/Works/Works';
 import Time from '../component/clock/time';
 import Footer from '../component/Footer';
 import Popup from '../component/PopUp';
-import Review from '../component/experience-cards/Review';
+import Reviews from '../component/experience-cards/Reviews';
+
 
 
 
@@ -75,7 +76,7 @@ export const Home = () => {
             </a>
           </div>
         </div>
-        <Review />
+        <Reviews />
         <Time />
       </main>
       <Footer />
