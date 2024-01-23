@@ -67,7 +67,8 @@ export const Home = () => {
             Pero mi sed de conocimiento no se detuvo ahí. Quería estar al tanto de las últimas tecnologías y tendencias en el mundo del desarrollo web. Fue entonces cuando me encontré con TypeScript y React, una biblioteca de JavaScript que me permitió crear aplicaciones web de una manera más eficiente y escalable.<br />
             <br />
             <mark><b>Visita mi GitHub o LinkedIn</b></mark>
-          </p><div className='lastsection'>
+          </p>
+          <div className='lastsection'>
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='red' size='50px' />
             </a>
@@ -78,6 +79,14 @@ export const Home = () => {
         </div>
         <Reviews />
         <Time />
+        <div className='lastsection'>
+            <a href='https://github.com/diego-monfort-landolt'>
+              <AiFillGithub color='red' size='50px' />
+            </a>
+            <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
+              <AiFillLinkedin size='50px' color='red' />
+            </a>
+          </div>
       </main>
       <Footer />
     </>
