@@ -18,7 +18,6 @@ Review.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string,
   image: PropTypes.string
-
 }
 
 export default Review
