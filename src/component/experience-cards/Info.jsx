@@ -9,9 +9,9 @@ const Info = () => {
         <div className='model-head'>
           <h3 className='info-txt'>Popup</h3>
         </div>
-        <button className='close-btn'>X</button> 
+        
       </div>
-     
+     <button className='close-btn'>X</button> 
     </div>
     
     </>

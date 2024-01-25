@@ -63,11 +63,17 @@
   border-radius: 12px;
   border: 1px solid blue;
   box-shadow: 0 0 10px red;
-  padding: 20px;
-
-  
+  padding: 20px; 
 }
 
+.model-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000;
+}
 .review-btn {
   padding: 10px;
   border: none;
@@ -94,6 +100,11 @@
   font-weight: bolder;
   border: none;
   border-bottom: 1px solid red;
+}
+.close-btn:hover {
+  color: red;
+  border-bottom: 1px solid blue;
+  
 }
 /* END -->> BTN for the review --more info and div from the btn */
 
