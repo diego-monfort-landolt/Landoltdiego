@@ -56,7 +56,7 @@
   background-color: red;
   border: 1px solid blue;
   color: #000;
-  transition: 1s all ease;
+  transition: .5s all ease;
   letter-spacing: 1px;
   font-style: italic;
 }
