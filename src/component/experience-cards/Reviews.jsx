@@ -21,19 +21,19 @@ const reviews = [
   {
     id: 3,
     title: 'JavaScript',
-    description: 'JavaScript ha capturado mi atención y ha transformado mi enfoque hacia el desarrollo web.',
+    description: 'Mi experiencia en JavaScript y porque me gusta',
     image: Bild3
   },
   {
     id: 4,
     title: 'Node.Js',
-    description: 'Node.js ha capturado mi atención y ha transformado mi enfoque hacia el desarrollo web.',
+    description: 'Mi experiencia en Node.js y porque me gusta',
     image: Bild4
   },
   {
     id: 5,
     title: 'React',
-    description: 'React.js es una biblioteca de JavaScript que ha capturado mi atención y ha transformado mi enfoque hacia el desarrollo web.',
+    description: 'Mi experiencia en React y porque me gusta',
     image: Bild5
   }
 ]

@@ -41,6 +41,16 @@
   text-align: left;
 }
 
+/* BTN for the review --more info and div from the btn */
+
+.review-btn {
+  padding: 10px;
+  border: none;
+  background-color: blue;
+  border-radius: 10px;
+  box-shadow: 0 0 5px red;
+}
+
 
 /* heer start is reviewS style*/
 .review-container {

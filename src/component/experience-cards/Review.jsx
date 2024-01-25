@@ -10,6 +10,9 @@ const Review = ({ title, text, image }) => {
         <h4 className="review-title">{ title }</h4>
         <p className="review-text">{ text }</p>
       </div>
+      <div className='container-btn'>
+        <button className='review-btn'>Más info</button>
+      </div>
     </div>
     </>
   )
