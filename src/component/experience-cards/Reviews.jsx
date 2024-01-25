@@ -34,7 +34,8 @@ const reviews = [
     id: 5,
     title: 'React',
     description: 'Mi experiencia en React y porque me gusta',
-    image: Bild5
+    image: Bild5,
+    info: 'Me enamoro de react, un lenguage tan precioso que me facina cada dia mas y mas'
   }
 ]
 
@@ -49,6 +50,7 @@ const Reviews = () => {
               title={reviews.title}
               text={reviews.description}
               image={reviews.image}
+              info={reviews.info}
               />
             </div>  
           ))

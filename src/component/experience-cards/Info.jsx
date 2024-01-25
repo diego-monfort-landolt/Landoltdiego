@@ -1,17 +1,18 @@
 import './review.css'
 
 
-const Info = ({info}) => {
+const Info = () => {
   return (
     <>
-    <h3 className='info-txt'>{info}</h3>
+    <div className='overlay'>
+      <div className='cont-model'>
+         <h3 className='info-txt'>Popup</h3>
+      </div>
+     
+    </div>
+    
     </>
   )
 }
-Info.propTypes = {
-  // eslint-disable-next-line no-undef
-  info: PropTypes.string.isRequired,
-}
-
 
 export default Info

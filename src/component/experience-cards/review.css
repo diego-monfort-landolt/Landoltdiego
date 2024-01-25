@@ -42,6 +42,28 @@
 }
 
 /* BTN for the review --more info and div from the btn */
+.overlay {
+  width:100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont-model {
+  width: 500px;
+  height: 100px;
+  background: #ffffff8f;
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid blue;
+  box-shadow: 0 0 10px red;
+  padding: 20px;
+}
 
 .review-btn {
   padding: 10px;
