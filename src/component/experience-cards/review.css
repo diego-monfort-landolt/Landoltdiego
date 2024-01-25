@@ -75,6 +75,14 @@
 
 /* heer END is reviewS style*/
 
+
+/* info card review */
+.info-txt {
+  color: #000;
+}
+
+
+
 /* Responsive styles */
 @media screen and (max-width: 600px) {
   .review {

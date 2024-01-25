@@ -3,7 +3,7 @@ import './review.css'
 const Info = () => {
   return (
     <>
-    <h3>PopUp</h3>
+    <h3 className='info-txt'>PopUp</h3>
     </>
   )
 }
