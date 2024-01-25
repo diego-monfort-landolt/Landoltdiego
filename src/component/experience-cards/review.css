@@ -49,6 +49,16 @@
   background-color: blue;
   border-radius: 10px;
   box-shadow: 0 0 5px red;
+  cursor: pointer;
+}
+.review-btn:hover {
+  box-shadow: 0 0 10px blue;
+  background-color: red;
+  border: 1px solid blue;
+  color: #000;
+  transition: 1s all ease;
+  letter-spacing: 1px;
+  font-style: italic;
 }
 
 

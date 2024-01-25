@@ -1,3 +1,4 @@
+import Info from './Info'
 import './review.css'
 import PropTypes  from 'prop-types'
 
@@ -12,6 +13,7 @@ const Review = ({ title, text, image }) => {
       </div>
       <div className='container-btn'>
         <button className='review-btn'>Más info</button>
+        <Info />
       </div>
     </div>
     </>
