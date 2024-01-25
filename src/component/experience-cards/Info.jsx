@@ -1,4 +1,5 @@
 import './review.css'
+import { AiOutlineClose  } from "react-icons/ai";
 
 
 const Info = () => {
@@ -9,9 +10,8 @@ const Info = () => {
         <div className='model-head'>
           <h3 className='info-txt'>Popup</h3>
         </div>
-        
+         <button className='close-btn'><AiOutlineClose size={20} /></button> 
       </div>
-     <button className='close-btn'>X</button> 
     </div>
     
     </>
