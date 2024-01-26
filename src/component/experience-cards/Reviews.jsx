@@ -10,25 +10,29 @@ const reviews = [
     id: 1,
     title: 'Html',
     description: 'La base de todo',
-    image: Bild1
+    image: Bild1,
+    info: 'Todo necesita una base'
   },
   {
     id: 2,
     title: 'CSS',
     description: 'Styles, Styles y mas Styles',
-    image: Bild2
+    image: Bild2,
+    info: 'Con Styles se domina el frontend '
   },
   {
     id: 3,
     title: 'JavaScript',
     description: 'Mi experiencia en JavaScript y porque me gusta',
-    image: Bild3
+    image: Bild3,
+    info: 'Me enamoro de JS, un lenguage tan precioso que me facina cada dia mas y mas'
   },
   {
     id: 4,
     title: 'Node.Js',
     description: 'Mi experiencia en Node.js y porque me gusta',
-    image: Bild4
+    image: Bild4,
+    info: 'Node.js, un lenguage tan precioso que me facina cada dia mas y mas'
   },
   {
     id: 5,
