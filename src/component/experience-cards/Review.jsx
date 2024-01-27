@@ -20,7 +20,6 @@ const Review = ({ title, text, image, info }) => {
         <div className='model-head'>
           <h3 className='info-txt'>{info}</h3>
         </div>
-        
          <button className='close-btn'><AiOutlineClose size={20} /></button> 
       </div>
     </div>
