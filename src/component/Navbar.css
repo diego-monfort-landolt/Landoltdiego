@@ -78,6 +78,19 @@ nav ul li a:hover {
   border-bottom: none;
 }
 
+.welcometxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10%;
+  letter-spacing: 3;
+  font-style: italic;
+  border-bottom: 1px solid red;
+  padding-bottom: 15px;
+
+}
+
 @media (max-width: 480px) {
   .active {
     color: red;

@@ -7,15 +7,16 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <>
-      <nav path="/">
+      <nav >
+
         <Link to='/' className='title'><h2>DiegoDev</h2></Link>
         <div className='menu' onClick={() => {
           setMenuOpen(!menuOpen)
-         
+
         }} >
-          <span></span>
-          <span></span>
-          <span></span>
+          <span  ></span>
+          <span  ></span>
+          <span  ></span>
         </div>
         <ul className={menuOpen ? "open" : ""}>
           <li> <NavLink to='/'>Home</NavLink> </li>
@@ -23,7 +24,11 @@ export const Navbar = () => {
           <li> <NavLink to='contact'>Contact</NavLink> </li>
         </ul>
       </nav>
+
+      <h2 className='welcometxt'> A warm Welcom!</h2>
+      <p className='txtnavbar'>this is my protfolio that i am creating with react, there are still some bugs that i want to fix.
+        everything step by step. </p>
     </>
   )
 }
-          
+
