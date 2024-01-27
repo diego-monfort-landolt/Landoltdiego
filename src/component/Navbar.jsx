@@ -26,7 +26,7 @@ export const Navbar = () => {
           <li> <NavLink to='contact'>Contact</NavLink> </li>
         </ul>
       </nav>
-
+{/* 
       <h2 className='welcometxt'> A warm Welcom!</h2>
       <div className='textsection'>
         <p className='txtnavbar'>This is my protfolio that i am creating with react, there are still some bugs that i want to fix.
@@ -43,7 +43,7 @@ export const Navbar = () => {
           <NavLink to='/'>Home</NavLink>
         </div>
 
-      </div>
+      </div> */}
 
     </>
   )
