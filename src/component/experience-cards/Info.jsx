@@ -39,9 +39,7 @@ const Info = () => {
          <button className='close-btn'><AiOutlineClose size={20} /></button> 
       </div>
     </div>
-    
     </>
   )
 }
-
 export default Info
