@@ -1,9 +1,9 @@
 
+import Info from './Info'
 import './review.css'
 import PropTypes  from 'prop-types'
-import { AiOutlineClose  } from "react-icons/ai";
 
-const Review = ({ title, text, image, info }) => {
+const Review = ({ title, text, image }) => {
   return (
     <>
     <div className="review">
@@ -15,17 +15,9 @@ const Review = ({ title, text, image, info }) => {
       <div className='container-btn'>
         <button className='review-btn'>Más info</button>
         {/* text area from info - when click this */}
-
-        <div className='overlay'>
-              <div className='cont-model'>
-                <div className='model-head'>
-                  <h3 className='info-txt'>{info}</h3>
-                </div>
-                <button className='close-btn'><AiOutlineClose size={20} /></button> 
-              </div>
-            </div>
-              </div>
-            </div>
+        <Info />
+      </div>
+    </div>
     </>
   )
 }
