@@ -14,6 +14,7 @@ const Review = ({ title, text, image, info }) => {
       </div>
       <div className='container-btn'>
         <button className='review-btn'>Más info</button>
+        {/* text area from info - when click this */}
 
 <div className='overlay'>
       <div className='cont-model'>
