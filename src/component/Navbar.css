@@ -83,13 +83,45 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
 
-  margin: 10%;
+  margin: 10% 20%;
   letter-spacing: 3;
   font-style: italic;
   border-bottom: 1px solid red;
   padding-bottom: 15px;
 
 }
+.textsection {
+  margin: 0 10%;
+}
+.iconsection {
+  text-align: center;
+  margin: 20px;
+}
+.iconsection a {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.link-home {
+  text-align: center;
+  letter-spacing: 2px;
+  font-style: italic;
+  font-size: 25px;
+  padding-top: 40px;
+}
+.link-home a {
+  
+  color: #fff;
+  padding:10px;
+  border: 1px solid red;
+  border-radius: 12px;
+  text-decoration: none;
+  
+}
+.link-home a:hover {
+  background-color: blue;
+  box-shadow: 0 0 20px blue;
+}
+
 
 @media (max-width: 480px) {
   .active {
