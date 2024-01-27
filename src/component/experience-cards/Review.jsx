@@ -13,7 +13,7 @@ const Review = ({ title, text, image }) => {
         <p className="review-text">{ text }</p>
       </div>
       <div className='container-btn'>
-        <button className='review-btn' onClick={() => {alert('sorry in this moment not available, available in the next update')}}>Más info</button>
+        <button className='review-btn' onClick={() => {alert('will be activated in the next update')}}>Más info</button>
         {/* text area from info - when click this */}
         <Info />
       </div>
