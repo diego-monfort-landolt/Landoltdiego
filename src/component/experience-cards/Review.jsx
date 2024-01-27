@@ -16,16 +16,16 @@ const Review = ({ title, text, image, info }) => {
         <button className='review-btn'>Más info</button>
         {/* text area from info - when click this */}
 
-<div className='overlay'>
-      <div className='cont-model'>
-        <div className='model-head'>
-          <h3 className='info-txt'>{info}</h3>
-        </div>
-         <button className='close-btn'><AiOutlineClose size={20} /></button> 
-      </div>
-    </div>
-      </div>
-    </div>
+        <div className='overlay'>
+              <div className='cont-model'>
+                <div className='model-head'>
+                  <h3 className='info-txt'>{info}</h3>
+                </div>
+                <button className='close-btn'><AiOutlineClose size={20} /></button> 
+              </div>
+            </div>
+              </div>
+            </div>
     </>
   )
 }
