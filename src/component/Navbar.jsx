@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import './Navbar.css'
+import { Home } from '../pages'
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <>
-      <nav>
+      <nav >
         <Link to='/' className='title'><h2>DiegoDev</h2></Link>
         <div className='menu' onClick={() => {
           setMenuOpen(!menuOpen)
@@ -21,6 +22,7 @@ export const Navbar = () => {
           <li> <NavLink to='contact'>Contact</NavLink> </li>
         </ul>
       </nav>
+      <Home />
     </>
   )
 }
