@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <>
-      <nav >
+      <nav to='/'>
 
         <Link to='/' className='title'><h2>DiegoDev</h2></Link>
         <div className='menu' onClick={() => {
