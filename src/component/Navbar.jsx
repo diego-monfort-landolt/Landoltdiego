@@ -7,7 +7,6 @@ export const Navbar = () => {
   return (
     <>
       <nav>
-
         <Link to='/' className='title'><h2>DiegoDev</h2></Link>
         <div className='menu' onClick={() => {
           setMenuOpen(!menuOpen)
@@ -22,6 +21,7 @@ export const Navbar = () => {
           <li> <NavLink to='/about'>About</NavLink> </li>
           <li> <NavLink to='contact'>Contact</NavLink> </li>
         </ul>
+        
       </nav>
 
     </>
