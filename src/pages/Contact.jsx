@@ -19,6 +19,7 @@ export const Contact = () => {
           hasta pronto y gracias por tu tiempo
           <br />
           <br />
+
           <mark><b>Visita mi GitHub o LinkedIn</b></mark>
         </p>
         <div className='lastsection'>
@@ -30,8 +31,8 @@ export const Contact = () => {
           </a>
         </div>
       </div>
+      
       <Footer />
-
     </>
   )
 }
