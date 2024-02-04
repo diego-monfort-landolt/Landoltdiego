@@ -11,8 +11,9 @@ function App() {
       <div>  
         <Navbar />
       </div>
-      <Routes handler={Home} path="/" > 
-        <Route  exact path="/"  element={<Home />} />
+      <Routes> 
+        <Route path="/" element={<App />} />
+        <Route path="/home"  element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='contact' element={<Contact />} />
       </Routes>
@@ -26,10 +27,7 @@ function App() {
             /></h2>
             <p className='text-app'>
             Herzlich Willkommen! Wir freuen uns sehr, Sie hier zu begrüßen. Obwohl wir eine kleine Gemeinschaft sind, haben wir ein großes Herz und freuen uns darauf, Sie kennenzulernen. Genießen Sie Ihren Aufenthalt!
-
             </p>
-
-
             <div className='icons-app'>
 
                <a href='https://github.com/diego-monfort-landolt'>
