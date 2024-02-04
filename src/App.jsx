@@ -9,7 +9,6 @@ function App() {
     <div>
       
       <Navbar />
-
     </div>
       <Routes >
         <Route exact path='/' element={<Home />} />
