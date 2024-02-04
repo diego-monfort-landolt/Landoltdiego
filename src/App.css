@@ -2,3 +2,19 @@
   height: 100%;
   width: 100%;
 }
+.First-Titel {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin:10% auto;
+}
+.text-app {
+  margin: 10%;
+  text-align: left;
+}
+.icons-app {
+  text-align: center;
+}
+.icons-app a {
+  margin: 10px;
+}
