@@ -31,7 +31,6 @@ export const Contact = () => {
           </a>
         </div>
       </div>
-      
       <Footer />
     </>
   )
