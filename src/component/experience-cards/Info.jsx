@@ -36,7 +36,7 @@ const Info = () => {
         <div className='model-head'>
           <h3 className='info-txt'>Popup</h3>
         </div>
-         <button className='close-btn'><AiOutlineClose size={20} /></button> 
+         <button className='close-btn' ><AiOutlineClose size={20} /></button> 
       </div>
     </div>
     </>

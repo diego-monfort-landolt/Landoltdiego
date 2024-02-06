@@ -1,4 +1,5 @@
 import Review from "./Review"
+import Info from './Info'
 import Bild1 from '../../images/html.png'
 import Bild2 from '../../images/css.png'
 import Bild3 from '../../images/js.png'
@@ -34,7 +35,8 @@ const reviews = [
     id: 5,
     title: 'React',
     description: 'Mi experiencia en React y porque me gusta',
-    image: Bild5
+    image: Bild5,
+    info: 'this is my favorite language'
   }
 ]
 
@@ -51,6 +53,7 @@ const Reviews = () => {
               image={reviews.image}
       
               />
+              <Info info={reviews.info} />
             </div>  
           ))
         }
