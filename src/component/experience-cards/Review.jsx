@@ -15,6 +15,7 @@ const Review = ({ title, text, image }) => {
       <div className='container-btn'>
         <button className='review-btn' onClick={() => {alert('will be activated in the next update')}}>Más info</button>
         {/* text area from info - when click this */}
+        
         <Info />
       </div>
     </div>
