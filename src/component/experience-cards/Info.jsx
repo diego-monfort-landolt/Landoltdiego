@@ -28,7 +28,7 @@ import { AiOutlineClose  } from "react-icons/ai";
 //   },
 // ]
 
-const Info = () => {
+const Info = ({ children }) => {
   return (
     <>
     <div className='overlay'>
@@ -37,6 +37,7 @@ const Info = () => {
           <h3 className='info-txt'>Popup</h3>
         </div>
          <button className='close-btn' ><AiOutlineClose size={20} /></button> 
+         {children}
       </div>
     </div>
     </>

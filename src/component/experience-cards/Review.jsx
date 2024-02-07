@@ -17,7 +17,13 @@ const Review = ({ title, text, image, info }) => {
 
 
         {/* todoo: -- aded the modal popup -text area from info - when click this */}
-        <Info info={ info} />
+        <Info>
+          <div className='contenido'>
+           <h2>{ title }</h2>
+          <p>{ info }</p> 
+          </div>
+          
+        </Info>
       </div>
     </div>
     </>

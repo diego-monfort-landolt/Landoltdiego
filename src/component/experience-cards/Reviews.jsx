@@ -10,7 +10,8 @@ const reviews = [
     id: 1,
     title: 'Html',
     description: 'La base de todo',
-    image: Bild1
+    image: Bild1,
+    info: 'this is my favorite language'
   },
   {
     id: 2,

@@ -60,13 +60,14 @@
 
 .cont-model {
   width: 500px;
-  height: 100px;
+  height: 150px;
   background: #ffffff8f;
   position: relative;
   border-radius: 12px;
   border: 1px solid blue;
   box-shadow: 0 0 10px red;
   padding: 20px; 
+  
 }
 
 .model-head {
@@ -132,6 +133,17 @@
   color: #000;
 }
 
+/* styles fot info box content*/
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 5px;
+
+  color: #000 !important;
+  text-align: left;
+}
 
 
 /* Responsive styles */
