@@ -53,7 +53,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  display: none;
+  padding: 40px;
+  
 
 }
 
@@ -110,7 +111,6 @@
 }
 .close-btn:hover {
   border-bottom: 2px solid #000;
-
 }
 /* END -->> BTN for the review --more info and div from the btn */
 
