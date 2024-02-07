@@ -20,7 +20,9 @@ const Review = ({ title, text, image, info }) => {
 
 
         {/* todoo: -- aded the modal popup -text area from info - when click this */}
-        <Info 
+        
+      </div>
+      <Info 
         estado={estadoModal1}
         cambiarEstado={cambiarEstadoModal1}
         >
@@ -30,7 +32,6 @@ const Review = ({ title, text, image, info }) => {
           </div>
           
         </Info>
-      </div>
     </div>
     </>
   )
