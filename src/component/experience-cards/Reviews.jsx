@@ -1,5 +1,4 @@
 import Review from "./Review"
-import Info from './Info'
 import Bild1 from '../../images/html.png'
 import Bild2 from '../../images/css.png'
 import Bild3 from '../../images/js.png'
@@ -47,14 +46,14 @@ const Reviews = () => {
         {
           reviews.map(reviews => (
             <div key={reviews.id}>
-              <Review 
-              title={reviews.title}
-              text={reviews.description}
-              image={reviews.image}
-      
+              <Review
+                title={reviews.title}
+                text={reviews.description}
+                image={reviews.image}
+                info={reviews.info}
               />
-              <Info info={reviews.info} />
-            </div>  
+
+            </div>
           ))
         }
       </div>

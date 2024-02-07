@@ -3,7 +3,7 @@ import Info from './Info'
 import './review.css'
 import PropTypes  from 'prop-types'
 
-const Review = ({ title, text, image }) => {
+const Review = ({ title, text, image, info }) => {
   return (
     <>
     <div className="review">
@@ -12,15 +12,12 @@ const Review = ({ title, text, image }) => {
         <h4 className="review-title">{ title }</h4>
         <p className="review-text">{ text }</p>
       </div>
-      <div className='container-btn'>
-        
-
-        
+      <div className='container-btn'>    
         <button className='review-btn' onClick={() => {alert('will be activated in the next update')}}>Más info</button>
 
 
         {/* todoo: -- aded the modal popup -text area from info - when click this */}
-        <Info />
+        <Info info={ info} />
       </div>
     </div>
     </>
