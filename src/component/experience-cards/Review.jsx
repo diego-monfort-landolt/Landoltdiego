@@ -1,9 +1,12 @@
+import { useState } from 'react'
 
 import Info from './Info'
 import './review.css'
 import PropTypes  from 'prop-types'
 
 const Review = ({ title, text, image, info }) => {
+  const [estadoModal1, cambiarEstadoModal1] = useState(false)
+
   return (
     <>
     <div className="review">
@@ -13,11 +16,14 @@ const Review = ({ title, text, image, info }) => {
         <p className="review-text">{ text }</p>
       </div>
       <div className='container-btn'>    
-        <button className='review-btn' onClick={() => {alert('will be activated in the next update')}}>Más info</button>
+        <button className='review-btn' onClick={() => cambiarEstadoModal1(!estadoModal1) }>Más info</button>
 
 
         {/* todoo: -- aded the modal popup -text area from info - when click this */}
-        <Info>
+        <Info 
+        estado={estadoModal1}
+        cambiarEstado={cambiarEstadoModal1}
+        >
           <div className='contenido'>
            <h2>{ title }</h2>
           <p>{ info }</p> 

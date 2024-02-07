@@ -54,14 +54,12 @@
   align-items: center;
   justify-content: center;
   padding: 40px;
-  
-
 }
 
 .cont-model {
   width: 500px;
   height: 150px;
-  background: #ffffff8f;
+  background: #ffffffde;
   position: relative;
   border-radius: 12px;
   border: 1px solid blue;
