@@ -13,11 +13,10 @@
   cursor: pointer;
 }
 .card-container {
- background: url("../images/mont.jpg");
+ background: url("../images/mont.jpg"), no-repeat;
  object-fit: cover;
  background-position: center; 
  background-attachment: fixed;
-background-repeat: no-repeat;
 }
 
 .card {

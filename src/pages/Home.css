@@ -8,10 +8,9 @@
   justify-content: center;
 }
 .imagesection {
-  background: url("../images/mont.jpg") ;
+  background: url("../images/mont.jpg"), no-repeat ;
   background-position: center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
 }
