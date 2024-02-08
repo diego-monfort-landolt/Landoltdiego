@@ -11,6 +11,16 @@
   align-items: center;
   justify-content: center;
 }
+.imagesection {
+  background: url("../images/mont.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .überschrift {
   width: 60%;
