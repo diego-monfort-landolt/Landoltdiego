@@ -5,7 +5,7 @@
   align-items: center;
   
   background-repeat: no-repeat;
-  background-attachment: fixed;
+ 
   background-position: center;
   object-fit: cover;
   margin: 20px;
@@ -15,7 +15,8 @@
 .card-container {
  background: url("../images/mont.jpg");
  object-fit: cover;
- background-position: center;
+ background-position: center; 
+ background-attachment: fixed;
 }
 
 .card {

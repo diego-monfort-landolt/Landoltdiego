@@ -14,6 +14,7 @@
 .imagesection {
   background: url("../images/mont.jpg") ;
   background-position: center;
+  background-attachment: fixed;
 }
 .überschrift {
   width: 60%;
