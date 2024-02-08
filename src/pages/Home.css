@@ -1,5 +1,5 @@
 .imagesection {
-  background-image: url("../images/mont.jpg");
+  background: url("../images/mont.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -11,9 +11,7 @@
   align-items: center;
   justify-content: center;
 }
-.imagesection {
-  background: url("../images/mont.jpg");
-}
+
 .überschrift {
   width: 60%;
   margin: 10px auto;
