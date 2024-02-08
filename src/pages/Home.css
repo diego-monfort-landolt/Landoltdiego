@@ -11,6 +11,9 @@
   align-items: center;
   justify-content: center;
 }
+.imagesection {
+  background: url("../images/mont.jpg");
+}
 .überschrift {
   width: 60%;
   margin: 10px auto;
