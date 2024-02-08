@@ -94,7 +94,6 @@
   letter-spacing: 1px;
   font-style: italic;
 }
-
 .close-btn {
   background-color: transparent;
   cursor: pointer;
@@ -107,7 +106,6 @@
   position: absolute;
   top: 20px;
   right: 20px;
-
 }
 .close-btn:hover {
   border-bottom: 2px solid #000;
@@ -121,8 +119,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 0 10%;
-  
+  margin: 0 10%; 
 } 
 
 /* heer END is reviewS style*/
@@ -143,9 +140,6 @@
   color: #000 !important;
   text-align: left;
 }
-
-
-
 /* Responsive styles */
 @media screen and (max-width: 600px) {
   .review {
