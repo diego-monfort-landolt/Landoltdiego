@@ -26,7 +26,7 @@ export const Home = () => {
           <div className='überschrift'>
             <h2 className='under'><Typewriter
               options={{
-                strings: ['Bienvenido 👋 ', 'Welcome to my Portfolio', 'Herzlich Wilkommen', '{ I m DiegoDev }'],
+                strings: ['Bienvenido ', 'Welcome to my Portfolio', 'Herzlich Wilkommen', '{ I m DiegoDev }'],
                 autoStart: true,
                 loop: true,
               }}
