@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/mont.jpg");
+  background: url("../images/mont.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
