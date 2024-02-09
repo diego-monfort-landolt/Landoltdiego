@@ -4,7 +4,6 @@ import '../pages/Home.css'
 import weg from '../images/camino.jpg'
 import Footer from "../component/Footer";
 
-
 export const Contact = () => {
   return (
     <>
@@ -18,7 +17,6 @@ export const Contact = () => {
           hasta pronto y gracias por tu tiempo
           <br />
           <br />
-
           <mark><b>Visita mi GitHub o LinkedIn</b></mark>
         </p>
         <div className='lastsection'>

@@ -13,7 +13,7 @@ const Popup = () => {
 
   return (
     <>
-      {showPopup && (
+      { showPopup && (
         <div className="popup">
           <div className="popup-content"> 
             <h2>Bienvenido a mi Portfolio 🖐️</h2>
