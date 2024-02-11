@@ -1,5 +1,6 @@
 import './review.css'
 import { AiOutlineClose } from "react-icons/ai";
+import PropTypes  from 'prop-types'
 
 
 const Info = ({ children, estado, cambiarEstado }) => {
@@ -18,5 +19,10 @@ const Info = ({ children, estado, cambiarEstado }) => {
       }
     </>
   )
+}
+Info.propTypes = {
+  children: PropTypes.string.isRequired,
+  estado: PropTypes.bool,
+  cambiarEstado: PropTypes.bool//
 }
 export default Info
