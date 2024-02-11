@@ -12,14 +12,14 @@ const AboutMe = () => {
       <ParticlesBack />
       <div className='about-container'>
         <div className="particlesheader">
-          <h2>About Me</h2>
+          <h2>Más sobre mí</h2>
         </div>
         <div className="textcont">
           <h3>Sobre mi</h3><br />
           <p><mark>
             <b>¡Hola!</b>
           </mark><br />
-            Me alegra que te tomes el tiempo de hacer click en mis proyectos. Estoy aprendiendo programación por mi cuenta a través de Google y tutoriales de YouTube, así como algunos cursos, estoy particularmente interesado en HTML, CSS, JavaScript y con React.
+            Me alegra que te tomes el tiempo de hacer clic en mis proyectos. Estoy aprendiendo programación por mi cuenta a través de Google y tutoriales de YouTube, así como algunos cursos, estoy particularmente interesado en HTML, CSS, JavaScript y con React.
             <br />
             <br />
             <mark>Skills:</mark><br />
