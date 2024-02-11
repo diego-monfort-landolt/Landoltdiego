@@ -26,7 +26,6 @@
   border-radius: 12px 0 12px 0;
   padding: 30px;
   box-shadow: 1px 1px 45px red;
- 
 }
 .under {
   margin-bottom: 20px; 
@@ -50,9 +49,7 @@
   box-shadow: 1px 1px 15px blue;
   margin-bottom: 20px;
 }
-
 /*here begins Works*/
-
 .cardContainer {
   display: flex;
   flex-direction: row;
@@ -100,7 +97,6 @@
   border-radius: 10px;
   box-shadow: 0 0 40px red;
 }
-
 /*text secction*/
 .texto {
   margin: 2rem 10%;
