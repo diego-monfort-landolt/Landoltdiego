@@ -32,7 +32,7 @@ const reviews = [
     title: 'Node.Js',
     description: 'Mi experiencia en Node.js y porque me gusta',
     image: Bild4,
-    info: '❤️ Node.js, que se fundamenta en JavaScript, resulta fácil de manejar para aquellos que ya tienen conocimientos de JS y ofrece la ventaja de facilitar la gestión simultánea de peticiones ❤️'
+    info: 'Node.js, que se fundamenta en JavaScript, resulta fácil de manejar para aquellos que ya tienen conocimientos de JS y ofrece la ventaja de facilitar la gestión simultánea de peticiones'
   },
   {
     id: 5,
