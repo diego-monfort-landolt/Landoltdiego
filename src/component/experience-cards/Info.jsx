@@ -13,7 +13,9 @@ const Info = ({ children, estado, cambiarEstado }) => {
               <h3 className='info-txt'>🚩</h3>
             </div>
             <button className='close-btn' onClick={() => cambiarEstado(false)} ><AiOutlineClose size={20} /></button>
+
             {children}
+            
           </div>
         </div>
       }
