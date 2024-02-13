@@ -19,6 +19,7 @@ const Info = ({ children, estado, cambiarEstado }) => {
     </>
   )
 }
+
 Info.propTypes = {
   children: PropTypes.string.isRequired,
   estado: PropTypes.bool,
