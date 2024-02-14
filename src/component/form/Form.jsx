@@ -4,14 +4,19 @@ import './form.css'
 
 const Form = () => {
   const { register, handleSubmit } = useForm();
+
+const onSubmit = (data) => {
+  console.log(data)
+}
+
   return (
     <>
       <h2>Form</h2>
       <div className="formcontainer">
-        <form>
+        <form onSubmit={handleSubmit(onSubmit)}>
           <div>
             <label>Nombre:</label>
-            <input type="text" name='' />
+            <input type="text" {...register('nombre')} />
           </div>
           <div>
             <label>Empresa:</label>
