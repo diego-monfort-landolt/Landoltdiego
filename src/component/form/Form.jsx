@@ -3,7 +3,7 @@ import './form.css'
 
 
 const Form = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, formState: {errors}, handleSubmit } = useForm();
 
 const onSubmit = (data) => {
   console.log(data)
@@ -16,11 +16,18 @@ const onSubmit = (data) => {
         <form onSubmit={handleSubmit(onSubmit)}>
           <div>
             <label>Nombre:</label>
-            <input type="text" {...register('nombre')} />
+            <input type="text" {...register('nombre', {
+              required: true,
+              maxLength: 25
+            })} />
+            {errors.nombre?.type === 'required' && <p>Dime tu nombre</p>}
+            {errors.nombre?.type === 'maxLength' && <p>Tu nombre no puede superar los 25 caracteres</p>}
           </div>
           <div>
             <label>Empresa:</label>
-            <input type="text" name='' />
+            <input type="text" {...register('empresa', {
+              required: true
+            })} />
           </div>
           <div>
             <label>Descripción:</label>
@@ -28,7 +35,7 @@ const onSubmit = (data) => {
           </div>
           <div>
             <label>Pais</label>
-            <select>
+            <select {...register('pais')}>
               <option value='es'>Español</option>
               <option value='de'>Deutsch</option>
               <option value='en'>English</option>

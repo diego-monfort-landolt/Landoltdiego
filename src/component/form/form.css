@@ -39,6 +39,10 @@ input[type="submit"] {
   cursor: pointer;
   text-align: center;
 }
+input[type="submit"]:hover {
+  border: 1px solid red;
+  
+}
 
 @media (min-width: 600px) {
   form {
