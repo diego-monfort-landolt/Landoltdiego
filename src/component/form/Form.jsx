@@ -3,11 +3,11 @@ import './form.css'
 
 
 const Form = () => {
-  const { register, formState: {errors}, handleSubmit } = useForm();
+  const { register, formState: { errors }, handleSubmit } = useForm();
 
-const onSubmit = (data) => {
-  console.log(data)
-}
+  const onSubmit = (data) => {
+    console.log(data)
+  }
 
   return (
     <>
@@ -26,7 +26,7 @@ const onSubmit = (data) => {
           <div>
             <label>E-Mail:</label>
             <input type="email" {...register('email')} />
-            {errors.email?.type === 'pattern' && <p>El formato del e-mail está incorrecto</p>} 
+            {errors.email?.type === 'pattern' && <p>El formato del e-mail está incorrecto</p>}
           </div>
           <div>
             <label>Empresa:</label>
@@ -48,9 +48,7 @@ const onSubmit = (data) => {
           </div>
           <input type="submit" value='Enviar' />
         </form>
-
       </div>
-
     </>
 
   )
