@@ -24,6 +24,11 @@ const onSubmit = (data) => {
             {errors.nombre?.type === 'maxLength' && <p>Tu nombre no puede superar los 25 caracteres</p>}
           </div>
           <div>
+            <label>E-Mail:</label>
+            <input type="email" {...register('email')} />
+            {errors.email?.type === 'pattern' && <p>El formato del e-mail está incorrecto</p>} 
+          </div>
+          <div>
             <label>Empresa:</label>
             <input type="text" {...register('empresa', {
               required: true
