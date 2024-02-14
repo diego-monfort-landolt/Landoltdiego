@@ -3,6 +3,7 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import '../pages/Home.css'
 import weg from '../images/camino.jpg'
 import Footer from "../component/Footer";
+import Form from "../component/form/Form";
 
 export const Contact = () => {
   return (
@@ -17,8 +18,10 @@ export const Contact = () => {
           hasta pronto y gracias por tu tiempo
           <br />
           <br />
+         
           <mark><b>Visita mi GitHub o LinkedIn</b></mark>
-        </p>
+        </p> 
+       
         <div className='lastsection'>
           <a href='https://github.com/diego-monfort-landolt'>
             <AiFillGithub color='red' size='50px' />
@@ -27,7 +30,8 @@ export const Contact = () => {
             <AiFillLinkedin size='50px' color='red' />
           </a>
         </div>
-      </div>
+        <Form />
+      </div> 
       <Footer />
     </>
   )
