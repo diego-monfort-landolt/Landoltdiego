@@ -1,4 +1,5 @@
 import { useForm } from "react-hook-form"
+import './form.css'
 
 
 const Form = () => {
@@ -6,6 +7,10 @@ const Form = () => {
   return (
     <>
     <h2>Form</h2>
+    <div className="formcontainer">
+
+
+    </div>
     <form>
       <div>
         <label>Nombre:</label>
@@ -27,8 +32,7 @@ const Form = () => {
           <option value='en'>English</option>
         </select>
       </div>
-
-
+      <input type="submit" value='Enviar' />
     </form>
     </>
    
