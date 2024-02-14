@@ -20,13 +20,13 @@ const Form = () => {
               required: true,
               maxLength: 25
             })} />
-            {errors.nombre?.type === 'required' && <p>Dime tu nombre</p>}
-            {errors.nombre?.type === 'maxLength' && <p>Tu nombre no puede superar los 25 caracteres</p>}
+            {errors.nombre?.type === 'required' && <p className="errorpara">Dime tu nombre</p>}
+            {errors.nombre?.type === 'maxLength' && <p className="errorpara">Tu nombre no puede superar los 25 caracteres</p>}
           </div>
           <div>
             <label>E-Mail:</label>
             <input type="email" {...register('email')} />
-            {errors.email?.type === 'pattern' && <p>El formato del e-mail está incorrecto</p>}
+            {errors.email?.type === 'pattern' && <p className="errorpara">El formato del e-mail está incorrecto</p>}
           </div>
           <div>
             <label>Empresa:</label>
