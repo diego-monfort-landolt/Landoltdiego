@@ -7,7 +7,6 @@ const Form = () => {
 
   return (
     <>
-      <h2>Form</h2>
       <div className="formcontainer">
         <form  action="https://formsubmit.co/3524c0a9bb0dcff5dc15f2e7e57dedb3" method="POST" >
           <div>
@@ -45,7 +44,9 @@ const Form = () => {
               <option value='en'>English</option>
             </select>
           </div>
-          <input type="submit" value='Enviar' />
+          {/* BTN for send the recuest */}
+          {/* <input type="submit" value='Enviar' className="bn632-hover bn19" /> */}
+
           <input type="hidden" name="_next" value="https://diego-monfort-landolt.github.io/Landoltdiego/"></input>
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_blacklist" value="vendo, telefono, link, amor, curso, formacion, dinero, http, https"></input>
