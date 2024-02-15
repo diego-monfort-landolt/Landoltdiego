@@ -39,6 +39,7 @@ const Form = () => {
             <textarea type="text" {...register('description', {
               required: true
             })} />
+            {errors.description?.type === 'required' && <p className="errorpara">¿No quieres dejarme una nota?</p>}
           </div>
           <div>
             <label>Pais</label>
