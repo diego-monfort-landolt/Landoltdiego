@@ -3,20 +3,16 @@ import './form.css'
 
 
 const Form = () => {
-  const { register, formState: { errors }, handleSubmit } = useForm();
-
-  const onSubmit = (data) => {
-    console.log(data)
-  }
+  const { register, formState: { errors } } = useForm();
 
   return (
     <>
       <h2>Form</h2>
       <div className="formcontainer">
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form  action="https://formsubmit.co/diegomonfort1989@gmail.com" method="POST" >
           <div>
             <label>Nombre:</label>
-            <input type="text" {...register('nombre', {
+            <input type="text" name="name" {...register('nombre', {
               required: true,
               maxLength: 25
             })} />
@@ -25,18 +21,18 @@ const Form = () => {
           </div>
           <div>
             <label>E-Mail:</label>
-            <input type="email" {...register('email')} />
+            <input type="email" name="email" {...register('email')} />
             {errors.email?.type === 'pattern' && <p className="errorpara">El formato del e-mail está incorrecto</p>}
           </div>
           <div>
             <label>Empresa:</label>
-            <input type="text" {...register('empresa', {
+            <input type="text" name="company" {...register('empresa', {
               required: true
             })} />
           </div>
           <div>
             <label>Descripción:</label>
-            <textarea type="text" {...register('description', {
+            <textarea type="text" name="message" {...register('description', {
               required: true
             })} />
             {errors.description?.type === 'required' && <p className="errorpara">¿No quieres dejarme una nota?</p>}
@@ -50,6 +46,8 @@ const Form = () => {
             </select>
           </div>
           <input type="submit" value='Enviar' />
+          <input type="hidden" name="_next" value="https://diego-monfort-landolt.github.io/Landoltdiego/"></input>
+          <input type="hidden" name="_captcha" value="false" />
         </form>
       </div>
     </>
