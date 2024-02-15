@@ -9,7 +9,7 @@ const Form = () => {
     <>
       <h2>Form</h2>
       <div className="formcontainer">
-        <form  action="https://formsubmit.co/diegomonfort1989@gmail.com" method="POST" >
+        <form  action="https://formsubmit.co/3524c0a9bb0dcff5dc15f2e7e57dedb3" method="POST" >
           <div>
             <label>Nombre:</label>
             <input type="text" name="name" {...register('nombre', {
@@ -48,6 +48,7 @@ const Form = () => {
           <input type="submit" value='Enviar' />
           <input type="hidden" name="_next" value="https://diego-monfort-landolt.github.io/Landoltdiego/"></input>
           <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_blacklist" value="vendo, telefono, link, amor, curso, formacion, dinero, http, https"></input>
         </form>
       </div>
     </>
