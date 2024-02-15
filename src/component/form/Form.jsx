@@ -36,7 +36,9 @@ const Form = () => {
           </div>
           <div>
             <label>Descripción:</label>
-            <textarea type="text" />
+            <textarea type="text" {...register('description', {
+              required: true
+            })} />
           </div>
           <div>
             <label>Pais</label>
