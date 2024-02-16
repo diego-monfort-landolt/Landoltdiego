@@ -11,7 +11,7 @@ const Form = () => {
         <form  action="https://formsubmit.co/3524c0a9bb0dcff5dc15f2e7e57dedb3" method="POST" >
           <div>
             <label>Nombre:</label>
-            <input type="text" name="name" {...register('nombre', {
+            <input type="text" name="name" required {...register('nombre', {
               required: true,
               maxLength: 25
             })} />
@@ -20,7 +20,7 @@ const Form = () => {
           </div>
           <div>
             <label>E-Mail:</label>
-            <input type="email" name="email" {...register('email')} />
+            <input type="email" name="email" required {...register('email')} />
             {errors.email?.type === 'pattern' && <p className="errorpara">El formato del e-mail está incorrecto</p>}
           </div>
           <div>
@@ -31,7 +31,7 @@ const Form = () => {
           </div>
           <div>
             <label>Descripción:</label>
-            <textarea type="text" name="message" {...register('description', {
+            <textarea type="text" name="message" required {...register('description', {
               required: true
             })} />
             {errors.description?.type === 'required' && <p className="errorpara">¿No quieres dejarme una nota?</p>}
@@ -44,10 +44,10 @@ const Form = () => {
               <option value='en'>English</option>
             </select>
           </div>
-          {/* BTN for send the recuest */}
-          {/* <input type="submit" value='Enviar' className="bn632-hover bn19" /> */}
+         
+         <input type="submit" value='Enviar' className="bn632-hover bn19" /> 
 
-          <input type="hidden" name="_next" value="https://diego-monfort-landolt.github.io/Landoltdiego/"></input>
+          <input type="hidden" name="_next" value="https://diego-monfort-landolt.github.io/gracias/"></input>
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_blacklist" value="vendo, telefono, link, amor, curso, formacion, dinero, http, https"></input>
         </form>
