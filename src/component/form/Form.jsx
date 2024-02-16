@@ -1,7 +1,6 @@
 import { useForm } from "react-hook-form"
 import './form.css'
 
-
 const Form = () => {
   const { register, formState: { errors } } = useForm();
 
