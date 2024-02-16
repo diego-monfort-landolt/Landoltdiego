@@ -1,6 +1,7 @@
 import { useForm } from "react-hook-form"
 import './form.css'
 
+
 const Form = () => {
   const { register, formState: { errors } } = useForm();
 
@@ -43,10 +44,10 @@ const Form = () => {
               <option value='en'>English</option>
             </select>
           </div>
-         
-         <input type="submit" value='Enviar' className="bn632-hover bn19" /> 
+         {/* BTN disabled for the moment */}
+         {/* <input type="submit" value='Enviar' className="bn632-hover bn19" />  */}
 
-          <input type="hidden" name="_next" path='gracias' ></input>
+          <input type="hidden" name="_next" value="https://diego-monfort-landolt.github.io/gracias/"></input>
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_blacklist" value="vendo, telefono, link, amor, curso, formacion, dinero, http, https"></input>
         </form>
