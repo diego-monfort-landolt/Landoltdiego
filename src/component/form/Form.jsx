@@ -47,7 +47,7 @@ const Form = () => {
         
          <input type="submit" value='Enviar' className="bn632-hover bn19" /> 
 
-          <input type="hidden" name="_next" value=''></input>
+          <input type="hidden" name="_next" value='http://localhost:5173//gracias'></input>
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_blacklist" value="vendo, telefono, link, amor, curso, formacion, dinero, http, https"></input>
         </form>
