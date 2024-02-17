@@ -1,4 +1,4 @@
-
+import './form.css'
 
 const Thanks = () => {
   return (
