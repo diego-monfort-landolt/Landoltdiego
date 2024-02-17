@@ -9,7 +9,7 @@ const Form = () => {
   return (
     <>
       <div className="formcontainer">
-        <form  action="https://formsubmit.co/3524c0a9bb0dcff5dc15f2e7e57dedb3" method="POST" >
+        <form action="https://formsubmit.co/3524c0a9bb0dcff5dc15f2e7e57dedb3" method="POST" >
           <div>
             <label>Nombre:</label>
             <input type="text" name="name" required {...register('nombre', {
