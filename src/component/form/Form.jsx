@@ -11,7 +11,7 @@ const Form = () => {
         <form action="https://formsubmit.co/3524c0a9bb0dcff5dc15f2e7e57dedb3" method="POST" >
           <div>
             <label>Nombre:</label>
-            <input type="text" name="name" required {...register('nombre', {
+            <input type="text" name="name" placeholder="Nombre" required {...register('nombre', {
               required: true,
               maxLength: 25
             })} />
@@ -20,12 +20,12 @@ const Form = () => {
           </div>
           <div>
             <label>E-Mail:</label>
-            <input type="email" name="email" required {...register('email')} />
+            <input type="email" name="email" placeholder="E-Mail" required {...register('email')} />
             {errors.email?.type === 'pattern' && <p className="errorpara">El formato del e-mail está incorrecto</p>}
           </div>
           <div>
             <label>Empresa:</label>
-            <input type="text" name="company" {...register('empresa', {
+            <input type="text" name="company" placeholder="company" {...register('empresa', {
               required: true
             })} />
           </div>
