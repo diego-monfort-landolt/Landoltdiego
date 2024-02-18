@@ -109,13 +109,15 @@ input[type="submit"]:hover {
 
 /*  here beginns Thanks styles */
 
-.thankscontainer {
+/* .thankscontainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ajusta esto según tus necesidades */
-}
+  height: 100vh; /* Ajusta esto según tus necesidades }
+*/
 
-.thanksbody {
+
+/* .thanksbody {
   text-align: center;
-}
+  } 
+*/ 
