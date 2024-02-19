@@ -3,6 +3,7 @@
   height: auto;
   margin: auto;
   overflow: hidden;
+  z-index: 100;
 }
 .slider .slide-track {
   display: flex;
