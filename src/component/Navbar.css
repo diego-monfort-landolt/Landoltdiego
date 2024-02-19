@@ -26,7 +26,6 @@ nav .title {
   color: red !important;
   border-bottom: 1px solid blue;
   border-left: 1px solid blue;
-  text-shadow: 5px 5px 10px blue;
   border-radius: 15px 0 0 15px;
 }
 
