@@ -9,7 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #000000fa;
+  background-color: rgb(32, 32, 32);
   box-shadow: 1px 0 5px blue;
   position: sticky;
   top: 0;
