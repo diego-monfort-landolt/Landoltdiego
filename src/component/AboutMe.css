@@ -61,5 +61,9 @@
   border: 2px solid red;
   box-shadow: 0 0 30px red;
 }
+.particles-cont {
+  position: absolute !important;
+  top: 40px !important; left: 40px !important;
+}
 
 

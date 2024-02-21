@@ -9,7 +9,10 @@ import ContactCard from '../component/ContactCards/ContactCard';
 const AboutMe = () => {
   return (
     <>
-      <ParticlesBack />
+    <div className='particles-cont'>
+        <ParticlesBack />
+    </div>
+    
       <div className='about-container'>
         <div className="particlesheader">
           <h2>Más sobre mí</h2>
