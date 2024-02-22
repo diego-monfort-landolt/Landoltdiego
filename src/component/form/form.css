@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 5px;
   font-family: Arial, sans-serif;
 }
 
@@ -10,7 +10,6 @@ form {
   background-color: rgb(32, 32, 32);
   border: 1px solid blue;
   box-shadow: 0 0 40px red;
-  padding: 20px;
   border-radius: 12px;
 }
 
@@ -62,7 +61,7 @@ input[type="submit"]:hover {
   color: #000;
 } */
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   form {
     width: 100%;
     padding: 10px;
