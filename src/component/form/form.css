@@ -63,7 +63,6 @@ input[type="submit"]:hover {
     padding: 10px;
   }
 }
-
 .bn632-hover {
   width: 90px;
   font-size: 16px;
@@ -81,7 +80,6 @@ input[type="submit"]:hover {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
-
 .bn632-hover:hover {
   background-position: 100% 0;
   moz-transition: all .4s ease-in-out;
@@ -89,11 +87,9 @@ input[type="submit"]:hover {
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
-
 .bn632-hover:focus {
   outline: none;
 }
-
 .bn632-hover.bn19 {
   background-image: linear-gradient(
     to right,
