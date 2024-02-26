@@ -4,7 +4,6 @@ import './form.css'
 
 const Form = () => {
   const { register, formState: { errors } } = useForm();
-
   return (
     <>
       <div className="formcontainer">
@@ -53,5 +52,4 @@ const Form = () => {
     </>
   )
 }
-// TODOO --> thanks after sends and disable the form when the form sends 1 time
 export default Form
