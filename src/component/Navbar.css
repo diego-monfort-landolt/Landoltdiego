@@ -27,7 +27,6 @@ nav .title {
   border-left: 1px solid blue;
   border-radius: 15px 0 0 15px;
 }
-
 nav ul {
   display: flex;
 }
