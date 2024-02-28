@@ -12,9 +12,9 @@ export const Navbar = () => {
           <div className='menu' onClick={() => {
             setMenuOpen(!menuOpen)
           }} >
-            <span  ></span>
-            <span  ></span>
-            <span  ></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
           <ul className={menuOpen ? "open" : ""}>
             <li onClick={() => setMenuOpen(false)}> <NavLink to='/'>Home</NavLink> </li>
