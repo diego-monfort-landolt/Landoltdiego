@@ -1,4 +1,3 @@
-
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import '../pages/Home.css'
 import weg from '../images/camino.jpg'
@@ -17,11 +16,9 @@ export const Contact = () => {
         <p>Sie me quieres contactar te dejo mis enlaces de github y LinkedIn
           hasta pronto y gracias por tu tiempo
           <br />
-          <br />
-         
+          <br /> 
           <mark><b>Visita mi GitHub o LinkedIn</b></mark>
-        </p> 
-       
+        </p>  
         <div className='lastsection'>
           <a href='https://github.com/diego-monfort-landolt'>
             <AiFillGithub color='red' size='50px' />
