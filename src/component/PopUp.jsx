@@ -16,8 +16,8 @@ const Popup = () => {
       { showPopup && (
         <div className="popup">
           <div className="popup-content"> 
-            <h2>Bienvenido a mi Portfolio 🖐️</h2>
-            <p>Creado con React</p>
+            <h2>Bienvenido a mi Portafolio 🖐️</h2>
+            <p>disfruta y dale al ✖️</p>
             <button className="close" onClick={() => {setShowPopup(false)}}>❌</button>
           </div>
         </div>
