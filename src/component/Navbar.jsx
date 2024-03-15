@@ -23,9 +23,7 @@ export const Navbar = () => {
           </ul>
         </nav>
         <Outlet />
-
       </div>
-
     </>
   )
 }
