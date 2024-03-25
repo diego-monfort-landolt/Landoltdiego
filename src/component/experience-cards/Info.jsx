@@ -1,12 +1,23 @@
 import './review.css'
 import { AiOutlineClose } from "react-icons/ai";
 import PropTypes  from 'prop-types'
+import { useState, useEffect } from 'react';
 
 const Info = ({ children, estado, cambiarEstado }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('modal-open');
+    } else {
+      document.body.classList.remove('modal-open');
+    }
+  }, [isOpen]);
+
   return (
     <>
       { estado &&
-        <div className='overlay'>
+        <div className='overlay modal-open'>
           <div className='cont-model'>
             <div className='model-head'>
               <h3 className='info-txt'>🚩</h3>

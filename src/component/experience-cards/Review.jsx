@@ -16,8 +16,6 @@ const Review = ({ title, text, image, info }) => {
       </div>
       <div className='container-btn'>    
         <button className='review-btn' onClick={() => cambiarEstadoModal1(!estadoModal1) }>Más info</button>
-        {/* todoo: -- aded the modal popup -text area from info - when click this */}
-        
       </div>
       <Info 
         estado={estadoModal1}
