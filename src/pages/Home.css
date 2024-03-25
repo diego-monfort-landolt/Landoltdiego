@@ -68,7 +68,6 @@
 .cardInhalt:hover {
   border: 2px solid blue;
   box-shadow: 0px 0px 40px red !important;
-
   filter: blur(0);
 }
 .likebtn {

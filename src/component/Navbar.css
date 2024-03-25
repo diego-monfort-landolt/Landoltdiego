@@ -12,6 +12,7 @@ nav {
   border-bottom: 1px solid red;
   position: sticky;
   top: 0;
+  margin-bottom: -15px;
   padding: 0 20px 0 20px;
   z-index: 30;
 }
