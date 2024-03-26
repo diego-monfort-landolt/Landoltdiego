@@ -51,10 +51,9 @@
   justify-content: center;
   padding: 40px;
 }
-.overlay, .modal-open{
+.overlay  .modal-open{
 overflow: hidden;
 }
-
 .cont-model {
   width: 500px;
   height: auto;
