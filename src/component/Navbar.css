@@ -66,10 +66,11 @@ nav .menu {
   height: 2rem;
 }
 nav .menu span {
-  height: 0.1rem;
+  height: 0.2rem;
   width: 100%;
-  background-color: white;
+  background-color: white !important;
   border-radius: 0.2rem;
+  z-index: 400;
 }
 nav ul li a:hover {
   border-bottom: none;
