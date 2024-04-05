@@ -50,7 +50,6 @@ border-radius: 12px 0 12px 0;
 box-shadow: 1px 1px 15px #000;
 animation: animation1  ease 2s infinite normal none;
 }
-
 .btn-card {
   background-color: red; /* Green */
   border: none;
@@ -71,7 +70,6 @@ animation: animation1  ease 2s infinite normal none;
 .btn-card:hover {
   border: 1px solid red;
 }
-
 @keyframes animation1 {
   0% {
     opacity: 1;
