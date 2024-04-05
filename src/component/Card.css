@@ -37,13 +37,11 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 }
-
 .text-cont {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 }
 .card-diego-img {
 width: 150px;
