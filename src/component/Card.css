@@ -3,9 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
   background-repeat: no-repeat;
- 
   background-position: center;
   object-fit: cover;
   margin: 20px;
@@ -18,7 +16,6 @@
  background-position: center; 
  background-attachment: fixed;
 }
-
 .card {
   background-color: rgba(10, 6, 245, 0.521);
   color: #fff;
