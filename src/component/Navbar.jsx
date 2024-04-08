@@ -8,7 +8,7 @@ export const Navbar = () => {
     <>
       <div>
         <nav>
-          <Link to='/home' className='title'><h2>DiegoDev</h2></Link>
+          <Link to='Home' className='title'><h2>DiegoDev</h2></Link>
           <div className='menu' onClick={() => {
             setMenuOpen(!menuOpen)
           }} >
@@ -17,9 +17,9 @@ export const Navbar = () => {
             <span></span>
           </div>
           <ul className={menuOpen ? "open" : ""}>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='/'>Home</NavLink> </li>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='about'>About</NavLink> </li>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='contact'>Contact</NavLink> </li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='Home'>Home</NavLink> </li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='About'>About</NavLink> </li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='Contact'>Contact</NavLink> </li>
           </ul>
         </nav>
         <Outlet />
