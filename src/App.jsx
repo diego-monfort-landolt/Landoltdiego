@@ -17,7 +17,7 @@ function App() {
       currentPath = currentPath.substring(1);
     }
     currentPath = currentPath.replace(/\\/g, '');
-    
+
     document.title = `DiegoDev  ${'| ' + currentPath}`;
     
   }, [location]);
@@ -29,6 +29,7 @@ function App() {
       </div>
       <Routes>
         <Route path="Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path='About' element={<About />} />
         <Route path='Contact' element={<Contact />} />
         <Route path='*' element={<Home />} />  
