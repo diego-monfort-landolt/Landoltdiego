@@ -47,8 +47,7 @@ nav ul li a:hover {
 nav ul li a::after {
   content: '';
     display: block;
-    width: 0;
-    
+    width: 0;  
     border-bottom:1px solid red;
     transition: width .3s;
 }
