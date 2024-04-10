@@ -142,7 +142,6 @@ a:hover {
   opacity: 0;
   transition: opacity 3s ease-in-out;
 }
-
 .appear-animation.visible {
   opacity: 1;
 }
