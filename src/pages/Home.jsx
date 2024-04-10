@@ -30,10 +30,10 @@ export const Home = () => {
               }}
             /></h2>
             <a href='https://github.com/diego-monfort-landolt'>
-              <AiFillGithub color='black' size='40px' />
+              <AiFillGithub color='red' size='40px' />
             </a>
             <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
-              <AiFillLinkedin size='40px' color='black' />
+              <AiFillLinkedin size='40px' color='red' />
             </a>
           </div>
         </div>
