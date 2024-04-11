@@ -9,7 +9,6 @@ function Footer() {
     setIsVisible(true);
   }, []);
 
- 
   return ( 
     <> 
     <div className='footer'>  
