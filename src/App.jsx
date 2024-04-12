@@ -17,9 +17,7 @@ function App() {
       currentPath = currentPath.substring(1);
     }
     currentPath = currentPath.replace(/\\/g, '');
-
-    document.title = `DiegoDev  ${'| ' + currentPath}`;
-    
+    document.title = `DiegoDev  ${'| ' + currentPath}`;  
   }, [location]);
 
   return (
@@ -37,5 +35,4 @@ function App() {
     </>
   )
 }
-
 export default App
