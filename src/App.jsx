@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Navbar } from './component/Navbar'
-import { About } from './pages/About'
-import { Contact } from './pages/Contact'
-import { Home } from './pages/Home'
+import  Navbar  from './component/Navbar'
+import  About  from './pages/About'
+import  Contact  from './pages/Contact'
+import  Home  from './pages/Home'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
