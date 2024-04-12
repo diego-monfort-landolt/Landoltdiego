@@ -4,7 +4,6 @@ import './time.css'
 const Time = () => {
   let time = new Date().toLocaleTimeString()
     const [currentTime, setCurrentTime] =  useState(time)
-
     const updateTime = () => {
       let time = new Date().toLocaleTimeString()
       setCurrentTime(time)
@@ -13,11 +12,10 @@ const Time = () => {
 
   return (
     <>
-     <div className='time-container'>
-      <h2>{ currentTime }</h2>
-    </div>
+      <div className='time-container'>
+        <h2>{ currentTime }</h2>
+      </div>
     </>
   )
 }
-
 export default Time
