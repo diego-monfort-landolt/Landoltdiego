@@ -28,7 +28,6 @@ export const Contact = () => {
             <AiFillLinkedin size='50px' color='red' />
           </a>
         </div>
-        
       </div> 
       <Footer />
     </>
