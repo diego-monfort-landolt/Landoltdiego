@@ -19,9 +19,9 @@ export const Navbar = () => {
             <span></span>
           </div>
           <ul className={menuOpen ? "open" : ""}>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='Home'>Home</NavLink> </li>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='About'>About</NavLink> </li>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='Contact'>Contact</NavLink> </li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='/Home'>Home</NavLink> </li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='/About'>About</NavLink> </li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='/Contact'>Contact</NavLink> </li>
           </ul>
         </nav>
         <Outlet />
