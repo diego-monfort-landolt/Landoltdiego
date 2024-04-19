@@ -5,7 +5,6 @@ import Diego from '../images/diego-landolt.png'
 
 
 const Card = () => {
-
   const [isOpen, setIsOpen] = useState(false)
  
   return (
