@@ -100,15 +100,3 @@ input[type="submit"]:hover {
   );
   box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
-
-/*  here beginns Thanks styles is comming in the future */
-/* .thankscontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ajusta esto según tus necesidades }
-*/
-/* .thanksbody {
-  text-align: center;
-  } 
-*/ 
