@@ -22,6 +22,7 @@ function App() {
     <>
       <div>
         <Navbar />
+        
       </div>
         <Routes>
           <Route path="/Home" element={<Home />} />
