@@ -62,5 +62,4 @@ const ExpSlider = () => {
     </>
   )
 }
-
 export default ExpSlider
