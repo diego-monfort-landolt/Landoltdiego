@@ -10,7 +10,6 @@ import Footer from '../component/Footer';
 import Popup from '../component/PopUp';
 import Reviews from '../component/experience-cards/Reviews';
 
-
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
