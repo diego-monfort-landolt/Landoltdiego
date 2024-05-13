@@ -1,4 +1,3 @@
-
 import './ContactCard.css'
 
 const ContactCard = () => {
