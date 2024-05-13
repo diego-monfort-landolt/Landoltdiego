@@ -3,7 +3,6 @@ import ParticlesBack from './config/ParticlesBack'
 import Typewriter from 'typewriter-effect'
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import ExpSlider from './ExpSlider'
-import Diego from '../images/diego-landolt.png'
 import ContactCard from '../component/ContactCards/ContactCard';
 
 const AboutMe = () => {
