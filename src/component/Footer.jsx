@@ -4,7 +4,6 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function Footer() {
   const [isVisible, setIsVisible] = useState(false);
-
   useEffect(() => {
     setIsVisible(true);
   }, []);
