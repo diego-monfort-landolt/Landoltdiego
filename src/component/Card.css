@@ -75,7 +75,7 @@ animation: animation1  ease 2s infinite normal none;
     opacity: 1;
   }
   50% {
-    opacity: 0.8;
+    opacity: 0.9;
   }
   100% {
     opacity: 1;
