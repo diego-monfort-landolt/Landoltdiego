@@ -5,7 +5,6 @@ import '../component/Card.css'
 
 const Card = () => {
   const [isOpen, setIsOpen] = useState(false)
- 
   return (
     <>
       <div className='card-container'>
