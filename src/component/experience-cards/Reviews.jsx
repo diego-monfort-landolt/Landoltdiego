@@ -55,7 +55,6 @@ const Reviews = () => {
                 image={reviews.image}
                 info={reviews.info}
               />
-
             </div>
           ))
         }
