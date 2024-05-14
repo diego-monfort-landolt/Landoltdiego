@@ -42,7 +42,6 @@ const reviews = [
     info: '❤️ Desde el momento en que descubrí React, supe que había encontrado algo especial. Su simplicidad, su elegancia y su potencia me cautivaron. Con cada componente que creaba, cada estado que gestionaba, cada efecto que implementaba, mi admiración por React crecía. ❤️'
   }
 ]
-
 const Reviews = () => {
   return (
     <>
