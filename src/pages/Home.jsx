@@ -15,7 +15,6 @@ export const Home = () => {
   useEffect(() => {
     setIsVisible(true);
   }, []);
-
   return (
     <>
       <div className='mainsection'>
