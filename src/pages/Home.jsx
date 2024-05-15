@@ -37,7 +37,6 @@ export const Home = () => {
           </div>
         </div>
       </div >
-      
       <main className='main'>
         <div className='main-container'>
           <h3 className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>Dale un clic... </h3>
