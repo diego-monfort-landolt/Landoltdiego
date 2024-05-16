@@ -32,6 +32,6 @@
   height: 100%;
   border-radius: 20px;
   background-position: center;
-  transition: .8s ease-in all;
+  transition: .9s ease-in all;
   transform: scale(1);
 }
