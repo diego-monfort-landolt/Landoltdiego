@@ -4,7 +4,6 @@ import Bild2 from '../../images/css.png'
 import Bild3 from '../../images/js.png'
 import Bild4 from '../../images/node.png'
 import Bild5 from '../../images/atom.png'
-
 const reviews = [
   {
     id: 1,
