@@ -10,14 +10,14 @@ const reviews = [
     title: 'Html',
     description: 'La base de todo',
     image: Bild1,
-    info: 'El fundamento esencial de la programación web radica en HTML'
+    info: 'Con HTML y CSS empezó mi pasión de la programación, la fascinación de poder escribir algo y mejorarlo y poder visualizar un sitio "web" es la motivación más grande de todo el camino que sigue después.'
   },
   {
     id: 2,
     title: 'CSS',
     description: 'Styles, Styles y mas Styles',
     image: Bild2,
-    info: 'La personalización de estilos se realiza mediante CSS.💅'
+    info: 'La personalización de estilos se realiza mediante CSS. Es el "Style" de todo... ¡Siempre lo puedes mejorar más y más, al detalle! 💅'
   },
   {
     id: 3,
