@@ -24,14 +24,14 @@ const reviews = [
     title: 'JavaScript',
     description: 'Mi experiencia en JavaScript y porque me gusta',
     image: Bild3,
-    info: '❤️ JavaScript es un lenguaje que permite realizar auténticos prodigios en la programación ❤️'
+    info: '❤️ JavaScript es un lenguaje que permite realizar auténticos prodigios en la programación. Con JS cambia el Mundo de la programación y de la "Web", de un momento al otro todo es posible con function y else if, me entiendes? ❤️'
   },
   {
     id: 4,
     title: 'Node.Js',
     description: 'Mi experiencia en Node.js y porque me gusta',
     image: Bild4,
-    info: 'Node.js, que se fundamenta en JavaScript, resulta fácil de manejar para aquellos que ya tienen conocimientos de JS y ofrece la ventaja de facilitar la gestión simultánea de peticiones'
+    info: 'Node.js, que se fundamenta en JavaScript, con Node.js se conjunta el back-end y el front-end, aprendía React y también un pocito back-end con Node.js, express etc.. '
   },
   {
     id: 5,
