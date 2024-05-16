@@ -30,7 +30,6 @@ const Review = ({ title, text, image, info }) => {
     </>
   )
 }
-
 Review.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string,
