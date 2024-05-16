@@ -36,5 +36,4 @@ Review.propTypes = {
   image: PropTypes.string,
   info: PropTypes.string
 }
-
 export default Review
