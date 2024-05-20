@@ -24,7 +24,6 @@ const Review = ({ title, text, image, info }) => {
            <h2>{ title }</h2>
           <p>{ info }</p> 
           </div>
-          
         </Info>
     </div>
     </>
