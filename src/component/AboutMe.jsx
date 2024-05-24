@@ -40,7 +40,7 @@ const AboutMe = () => {
         </div>
         <div className="textcont">
           <div className="imgcont">
-            <img src={'https://media.licdn.com/dms/image/D4D35AQGU7rvZdrQb9g/profile-framedphoto-shrink_200_200/0/1711478836290?e=1716231600&v=beta&t=j78ql08PVo_YDe10auijEE2aHWsEiU82QtOS7SI3SIk'} />
+            <img src={'https://avatars.githubusercontent.com/u/75099835?v=4'} />
           </div>
         </div>
       </div>
