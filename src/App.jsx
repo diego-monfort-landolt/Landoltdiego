@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <div>
-        <Navbar />  
+       <Navbar />  
       </div>
         <Routes>
           <Route path="/Home" element={<Home />} />
