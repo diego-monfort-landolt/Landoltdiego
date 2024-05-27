@@ -27,7 +27,6 @@ export const Home = () => {
                 autoStart: true,
                 loop: true,
               }}
-              
             /></h2>
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='red' size='40px' />
