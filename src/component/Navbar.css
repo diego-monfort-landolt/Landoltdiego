@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&family=Noto+Serif:wght@200&display=swap');
-
 .active.active:any-link {
   color: red;
   border-top: 1px solid blue;
