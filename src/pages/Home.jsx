@@ -9,6 +9,7 @@ import Time from '../component/clock/time';
 import Footer from '../component/Footer';
 import Popup from '../component/PopUp';
 import Reviews from '../component/experience-cards/Reviews';
+import { Outlet } from 'react-router-dom';
 
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -73,6 +74,7 @@ export const Home = () => {
         <Time />
       </main>
       <Footer />
+      <Outlet />
     </>
   )
 }
