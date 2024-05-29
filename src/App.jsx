@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { NavLink, Route, Routes } from 'react-router-dom'
 import './App.css'
 import  Navbar  from './component/Navbar'
 import  About  from './pages/About'
@@ -23,6 +23,7 @@ function App() {
       <div>
        <Navbar />    
       </div>
+    
         <Routes>
           <Route path="Home" element={<Home />} />
           <Route path="/" element={<Home />} />
@@ -30,6 +31,7 @@ function App() {
           <Route path='Contact' element={<Contact />} />
           <Route path='/*' element={<Home />} />  
         </Routes>
+        
     </>
   )
 }
