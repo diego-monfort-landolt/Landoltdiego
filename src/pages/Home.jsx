@@ -72,8 +72,8 @@ export const Home = () => {
         </div>
         <Reviews />
         <Time />
-      </main>
-      <Footer />
+          </main>
+        <Footer />
       <Outlet />
     </>
   )
