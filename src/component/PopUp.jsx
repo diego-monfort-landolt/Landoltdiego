@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import './popup.css'
 
 const Popup = () => {
-  
   const [showPopup, setShowPopup] = useState(false);
   useEffect(() => {
     if (!localStorage.getItem('first-time')) {
