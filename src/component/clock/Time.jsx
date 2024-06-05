@@ -9,7 +9,6 @@ const Time = () => {
       setCurrentTime(time)
     }
     setInterval(updateTime, 1000) 
-
   return (
     <>
       <div className='time-container'>
