@@ -5,6 +5,7 @@ import PropTypes  from 'prop-types'
 
 const Review = ({ title, text, image, info }) => {
   const [estadoModal1, cambiarEstadoModal1] = useState(false)
+  
   return (
     <>
     <div className="review">

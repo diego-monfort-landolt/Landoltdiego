@@ -94,13 +94,13 @@
   font-size: 15px;
   font-weight: bolder;
   border: none;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #000;
   position: absolute;
   top: 20px;
   right: 20px;
 }
 .close-btn:hover {
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid red;
 }
 /* heer start is reviewS style*/
 .review-container {
