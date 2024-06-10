@@ -18,6 +18,7 @@ function App() {
     currentPath = currentPath.replace(/\\/g, '');
     document.title = `DiegoDev  ${'| ' + currentPath}`;  
   }, [location]);
+  
   return (
     <>
       <div>
