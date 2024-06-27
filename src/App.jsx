@@ -8,7 +8,6 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 function App() {
-  
   const location = useLocation();
   useEffect(() => {
     let currentPath = location.pathname;
