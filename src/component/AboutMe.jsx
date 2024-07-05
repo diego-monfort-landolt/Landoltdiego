@@ -6,7 +6,6 @@ import ExpSlider from './ExpSlider'
 import ContactCard from '../component/ContactCards/ContactCard';
 
 const AboutMe = () => {
-  
   return (
     <>
     <div className='particles-cont'>
@@ -74,7 +73,7 @@ const AboutMe = () => {
         <ContactCard />
       </div>
       <ExpSlider />
-      
+
     </>
   )
 }
