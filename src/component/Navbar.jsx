@@ -4,6 +4,7 @@ import './Navbar.css'
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false) 
+  
   return (
     <>
       <div>
