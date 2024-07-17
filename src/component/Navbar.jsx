@@ -3,7 +3,6 @@ import { Link, NavLink, Outlet } from 'react-router-dom'
 import './Navbar.css'
 
 export const Navbar = () => {
-  
   const [menuOpen, setMenuOpen] = useState(false) 
   
   return (
@@ -24,6 +23,7 @@ export const Navbar = () => {
             <li onClick={() => setMenuOpen(false)}> <NavLink to='/Contact'>Contact</NavLink> </li>
           </ul>
         </nav>
+        
         <Outlet />
       </div>
     </>
