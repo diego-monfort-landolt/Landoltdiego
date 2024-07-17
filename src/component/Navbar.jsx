@@ -22,8 +22,7 @@ export const Navbar = () => {
             <li onClick={() => setMenuOpen(false)}> <NavLink to='/About'>About</NavLink> </li>
             <li onClick={() => setMenuOpen(false)}> <NavLink to='/Contact'>Contact</NavLink> </li>
           </ul>
-        </nav>
-        
+        </nav>    
         <Outlet />
       </div>
     </>
