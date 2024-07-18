@@ -10,6 +10,7 @@ const Popup = () => {
       localStorage.setItem('first-time', 1)
     }
   }, [])
+  
   return (
     <>
       { showPopup && (
