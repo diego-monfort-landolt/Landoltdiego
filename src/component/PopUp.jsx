@@ -10,6 +10,7 @@ const Popup = () => {
     }
   }, [])
   return (
+    
     <>
       { showPopup && (
         <div className="popup">
