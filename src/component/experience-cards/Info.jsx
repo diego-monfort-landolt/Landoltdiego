@@ -13,7 +13,6 @@ const Info = ({ children, estado, cambiarEstado }) => {
       document.body.classList.remove('modal-open');
     }
   }, [isOpen]);
-  
   return (
     <>
       { estado &&
