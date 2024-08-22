@@ -9,9 +9,8 @@ const Popup = () => {
       localStorage.setItem('first-time', 1)
     }
   }, [])
-
   return (
-    
+
     <>
       { showPopup && (
         <div className="popup">
