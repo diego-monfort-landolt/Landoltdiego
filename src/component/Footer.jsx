@@ -7,6 +7,7 @@ function Footer() {
   useEffect(() => {
     setIsVisible(true);
   }, []);
+  
   return ( 
     <> 
     <div className='footer'>  
