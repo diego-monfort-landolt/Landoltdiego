@@ -72,6 +72,7 @@ input[type="email"] {
 .bn632-hover:focus {
   outline: none;
 }
+/* Btn color and style on hover */
 .bn632-hover.bn19 {
   background-image: linear-gradient(
     to right,

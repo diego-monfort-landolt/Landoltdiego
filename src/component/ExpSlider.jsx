@@ -57,6 +57,22 @@ const ExpSlider = () => {
           <div className="slide">
             <img src={Bild5} alt='html img' />
           </div>
+
+          <div className="slide">
+            <img src={Bild1} alt='html img' />
+          </div>
+          <div className="slide">
+            <img src={Bild2} alt='html img' />
+          </div>
+          <div className="slide">
+            <img src={Bild3} alt='html img' />
+          </div>
+          <div className="slide">
+            <img src={Bild4} alt='html img' />
+          </div>
+          <div className="slide">
+            <img src={Bild5} alt='html img' />
+          </div>
         </div>
       </div>
     </>
