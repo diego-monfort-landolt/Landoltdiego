@@ -4,7 +4,7 @@ import '../component/Card.css'
 
 const Card = () => {
   const [isOpen, setIsOpen] = useState(false)
-  
+
   return (
     <>
       <div className='card-container'>
@@ -14,7 +14,7 @@ const Card = () => {
             <motion.div>
               <div className="cont">
                 <div className='text-cont'>
-                  <p>Bienvenidos a mi portfolio, creado con React vite. Echar un vistazo a mis projectos y si quereis contactar conmigo podeis hacerlo por el formulario de contacto o los iconos de Linkedin o Github.</p>
+                  <p>Bienvenido a mi portfolio, creado con React vite. Echar un vistazo a mis projectos y si quereis contactar conmigo podeis hacerlo por el formulario de contacto o por el icono de Linkedin.</p>
                   <div className="img-cont">
                   <img className='card-diego-img' src={'https://avatars.githubusercontent.com/u/75099835?v=4'} alt='a photo of me' />
                 </div>
