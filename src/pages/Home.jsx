@@ -17,6 +17,7 @@ export const Home = () => {
     setIsVisible(true);
   }, []);
   return (
+    
     <>
       <div className='mainsection'>
         <Popup />
