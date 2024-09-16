@@ -21,7 +21,7 @@ const Works = () => {
           />
           <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }}>
             <Typography  gutterBottom variant="h5" component="div">
-              My Portfolio
+              My Old Portfolio
             </Typography>
             <Typography variant="body2" color="text.secondary">
               My first Portfolio created with HTML,CSS JavaScript through a youtube video tutorial
