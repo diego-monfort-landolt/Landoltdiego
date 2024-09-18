@@ -27,7 +27,6 @@ const Works = () => {
               My first Portfolio created with HTML,CSS JavaScript through a youtube video tutorial
             </Typography>
           </CardContent>
-         
         </Card>
         
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
