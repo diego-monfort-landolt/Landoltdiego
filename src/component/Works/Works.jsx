@@ -28,7 +28,6 @@ const Works = () => {
             </Typography>
           </CardContent>
         </Card>
-        
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
