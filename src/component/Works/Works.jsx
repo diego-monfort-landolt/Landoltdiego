@@ -32,7 +32,6 @@ const Works = () => {
           <CardMedia
             sx={{ height: 180 }}
             image={TictacToe}
-
           />
           <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/TicTacToe/" }}>
             <Typography gutterBottom variant="h5" component="div">
