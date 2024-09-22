@@ -2,6 +2,7 @@ import letter from '../../images/letter.png'
 import cardbackground from '../../images/cardbackground.png'
 import cookieBuild from '../../images/cookieBuild.png'
 import firstportfolio from '../../images/firstportfolio.png'
+import JavaScriptQuiz from '../../images/JavaScriptQuiz.png'
 import TictacToe from '../../images/tictactoe.png'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -14,6 +15,33 @@ const Works = () => {
   return (
     <>
       <div className='cardContainer works-cont'>
+
+      <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 180 }}
+            image={JavaScriptQuiz}
+
+          />
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/JavaScriptQuiz/" }}>
+            <Typography gutterBottom variant="h5" component="div">
+              JavaScript Quiz
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Let\s Go! Beginn to Learn JS.
+            </Typography>
+          </CardContent>
+        </Card>
+
+
+      <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/JavaScriptQuiz/" }}>
+            <Typography gutterBottom variant="h5" component="div">
+              
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Learn to build a Tictactoe
+            </Typography>
+          </CardContent>
+
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
