@@ -16,7 +16,7 @@ function App() {
       currentPath = currentPath.substring(1);
     }
     currentPath = currentPath.replace(/\\/g, '');
-    document.title = `DiegoDev  ${'| ' + currentPath}`;  
+    document.title = `Frontend Developer  ${'| ' + currentPath}`;  
   }, [location]);
   
   return (
@@ -29,7 +29,7 @@ function App() {
           <Route path="/Landoltdiego-Home" element={<Home />} />
           <Route path='/Landoltdiego/About' element={<About />} />
           <Route path='/Landoltdiego/Contact' element={<Contact />} />
-          <Route path='/*{`/Landoltdiego-Home`}' element={<Home />} />  
+          <Route path='/*' element={<Home />} />  
         </Routes> 
     </>
   )
