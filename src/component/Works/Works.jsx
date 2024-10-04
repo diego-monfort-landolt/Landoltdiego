@@ -35,20 +35,6 @@ const Works = () => {
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
-            image={firstportfolio}
-          />
-          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }}>
-            <Typography  gutterBottom variant="h5" component="div">
-              My Old Portfolio
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              My first Portfolio created with HTML,CSS JavaScript through a youtube video tutorial
-            </Typography>
-          </CardContent>
-        </Card>
-        <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
-          <CardMedia
-            sx={{ height: 180 }}
             image={TictacToe}
           />
           
@@ -104,6 +90,21 @@ const Works = () => {
             <Typography variant="body2" color="text.secondary">
               find the letter in a record time!
               this game was created with react vite.
+            </Typography>
+          </CardContent>
+        </Card>
+
+        <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 180 }}
+            image={firstportfolio}
+          />
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/portfoliodiegolandolt/" }}>
+            <Typography  gutterBottom variant="h5" component="div">
+              My Old Portfolio
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              My first Portfolio created with HTML,CSS JavaScript through a youtube video tutorial
             </Typography>
           </CardContent>
         </Card>
