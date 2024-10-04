@@ -26,10 +26,10 @@ function App() {
       </div>
         <Routes>
           <Route path="/Landoltdiego/Home" element={<Home />} />
-          <Route path="Home" element={<Home />} />
+          <Route path="/Landoltdiego/Home" element={<Home />} />
           <Route path='/Landoltdiego/About' element={<About />} />
           <Route path='/Landoltdiego/Contact' element={<Contact />} />
-          <Route path='/*' element={<Home />} />  
+          <Route path='/*/Landoltdiego/Home' element={<Home />} />  
         </Routes> 
     </>
   )
