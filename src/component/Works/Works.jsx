@@ -20,7 +20,6 @@ const Works = () => {
           <CardMedia
             sx={{ height: 180 }}
             image={JavaScriptQuiz}
-
           />
           <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/JavaScriptQuiz/" }}>
             <Typography gutterBottom variant="h5" component="div">
