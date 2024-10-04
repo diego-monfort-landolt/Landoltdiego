@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     let currentPath = location.pathname;
     // Check if the currentPath starts with '/' and remove it
-    if (currentPath.startsWith('/')) {
+    if (currentPath.startsWith('/Landoltdiego-Home')) {
       currentPath = currentPath.substring(1);
     }
     currentPath = currentPath.replace(/\\/g, '');
