@@ -32,15 +32,6 @@ const Works = () => {
           </CardContent>
         </Card>
 
-
-      <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/JavaScriptQuiz/" }}>
-            <Typography gutterBottom variant="h5" component="div">
-              
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            </Typography>
-          </CardContent>
-
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
