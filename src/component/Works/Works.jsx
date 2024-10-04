@@ -38,7 +38,6 @@ const Works = () => {
               
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Learn to build a Tictactoe
             </Typography>
           </CardContent>
 
