@@ -27,7 +27,7 @@ const Works = () => {
               JavaScript Quiz
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Let\s Go! Beginn to Learn JS.
+              Let`s Go! Beginn to Learn JS.
             </Typography>
           </CardContent>
         </Card>
@@ -37,7 +37,6 @@ const Works = () => {
             sx={{ height: 180 }}
             image={TictacToe}
           />
-          
           <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/TicTacToe/" }}>
             <Typography gutterBottom variant="h5" component="div">
               TicTacToe -lets play...
