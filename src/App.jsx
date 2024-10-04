@@ -15,7 +15,7 @@ function App() {
     if (currentPath.startsWith('Landoltdiego-Home')) {
       currentPath = currentPath.substring(1);
     }
-    currentPath = currentPath.replace(/\\/g, '');
+    currentPath = currentPath.replace(/\\/g, ' ');
     document.title = `Frontend Developer  ${'| ' + currentPath}`;  
   }, [location]);
   
@@ -27,8 +27,8 @@ function App() {
         <Routes>
           <Route path="Landoltdiego-Home" element={<Home />} />
           <Route path="Landoltdiego-Home" element={<Home />} />
-          <Route path='Landoltdiego/About' element={<About />} />
-          <Route path='Landoltdiego/Contact' element={<Contact />} />
+          <Route path='About' element={<About />} />
+          <Route path='Contact' element={<Contact />} />
           <Route path='/*' element={<Home />} />  
         </Routes> 
     </>
