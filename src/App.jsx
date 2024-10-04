@@ -25,7 +25,7 @@ function App() {
         <Navbar />    
       </div>
         <Routes>
-          <Route path="/Landoltdiego/Home" element={<Home />} />
+          <Route path="Landoltdiego-Home" element={<Home />} />
           <Route path="/Landoltdiego/Home" element={<Home />} />
           <Route path='/Landoltdiego/About' element={<About />} />
           <Route path='/Landoltdiego/Contact' element={<Contact />} />
