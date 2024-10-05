@@ -9,6 +9,7 @@ import { useLocation } from 'react-router-dom';
 
 function App() {
   const location = useLocation();
+  const history = useHistory();
   useEffect(() => {
     let currentPath = location.pathname;
     // Check if the currentPath starts with '/' and remove it
@@ -18,7 +19,7 @@ function App() {
     currentPath = currentPath.replace(/\//g, '');
     document.title = `Frontend Developer | ${ currentPath}`;  
   }, [location]);
-  
+
   return (
     <>
       <div>
