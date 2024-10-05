@@ -24,7 +24,7 @@ function App() {
       <div>
         <Navbar />    
       </div>
-        <Routes>
+        <Routes basename='Landoltdiego-Home'>
           <Route path="Landoltdiego-Home" element={<Home />} />
           <Route path="Landoltdiego-Home" element={<Home />} />
           <Route path='About' element={<About />} />
