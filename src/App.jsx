@@ -16,7 +16,7 @@ function App() {
       currentPath = currentPath.substring(1);
     }
     currentPath = currentPath.replace(/\//g, '');
-    document.title = `Frontend Developer  ${'| ' + currentPath}`;  
+    document.title = `Frontend Developer | ${ currentPath}`;  
   }, [location]);
   
   return (
