@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     let currentPath = location.pathname;
     // Check if the currentPath starts with '/' and remove it
-    if (currentPath.startsWith('Landoltdiego-Home')) {
+    if (currentPath.startsWith('Landoltdiego')) {
       currentPath = currentPath.substring(1);
     }
     currentPath = currentPath.replace(/\//g, '');
@@ -24,11 +24,11 @@ function App() {
       <div>
         <Navbar />    
       </div>
-        <Routes basename='Landoltdiego-Home'>
-          <Route path="Landoltdiego-Home" element={<Home />} />
-          <Route path="Landoltdiego-Home" element={<Home />} />
-          <Route path='About' element={<About />} />
-          <Route path='Contact' element={<Contact />} />
+        <Routes basename='Landoltdiego'>
+          <Route path="Landoltdiego" element={<Home />} />
+          <Route path="Landoltdiego/Home" element={<Home />} />
+          <Route path='Landoltdiego/About' element={<About />} />
+          <Route path='Landoltdiego/Contact' element={<Contact />} />
           <Route path='/*' element={<Home />} />  
         </Routes> 
     </>
