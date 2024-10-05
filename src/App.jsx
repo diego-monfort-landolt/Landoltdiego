@@ -9,7 +9,6 @@ import { useLocation } from 'react-router-dom';
 
 function App() {
   const location = useLocation();
-  const history = useHistory();
   useEffect(() => {
     let currentPath = location.pathname;
     // Check if the currentPath starts with '/' and remove it
@@ -26,7 +25,7 @@ function App() {
         <Navbar />    
       </div>
         <Routes>
-          <Route basename="Landoltdiego-Home" element={<Home />} />
+          <Route path="Landoltdiego-Home" element={<Home />} />
           <Route path="Landoltdiego-Home" element={<Home />} />
           <Route path='About' element={<About />} />
           <Route path='Contact' element={<Contact />} />
