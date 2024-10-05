@@ -15,7 +15,7 @@ function App() {
     if (currentPath.startsWith('Landoltdiego-Home')) {
       currentPath = currentPath.substring(1);
     }
-    currentPath = currentPath.replace(/\\/g, ' ');
+    currentPath = currentPath.replace(/\//g, '');
     document.title = `Frontend Developer  ${'| ' + currentPath}`;  
   }, [location]);
   
