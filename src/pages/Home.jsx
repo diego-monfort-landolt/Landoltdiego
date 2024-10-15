@@ -75,7 +75,7 @@ export const Home = () => {
           </div>
         </div>
         <Reviews />
-        <Time />
+         <Time />
           </main>
         <Footer />
       <Outlet />
