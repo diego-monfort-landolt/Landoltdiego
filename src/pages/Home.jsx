@@ -60,7 +60,6 @@ export const Home = () => {
             A medida que crecía, mi pasión por la informática se convirtió en algo más que un simple pasatiempo. Empecé a aprender de manera autodidacta sobre el desarrollo web y rápidamente me di cuenta de que quería convertirlo en mi carrera. Me fascinaba la idea de crear sitios web interactivos y atractivos utilizando diversos lenguajes de programación.
 
             Mi viaje como desarrollador web comenzó con HTML y CSS. Aprendí los fundamentos básicos de la estructura y el diseño de un sitio web, y pronto supe que quería profundizar en este campo. Fue entonces cuando descubrí JavaScript, un lenguaje de programación que me permitió agregar interactividad y dinamismo a mis proyectos.
-
             Pero mi sed de conocimiento no se detuvo ahí. Quería estar al tanto de las últimas tecnologías y tendencias en el mundo del desarrollo web. Así fue como me encontré con TypeScript y React, una biblioteca de JavaScript que me permitió crear aplicaciones web de manera más eficiente y escalable.<br />
             <br />
             <mark><b>Visita mi GitHub o LinkedIn</b></mark>
