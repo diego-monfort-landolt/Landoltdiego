@@ -73,7 +73,6 @@ const AboutMe = () => {
         <ContactCard />
       </div>
       <ExpSlider />
-
     </>
   )
 }
