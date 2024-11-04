@@ -8,8 +8,7 @@ const Time = () => {
       let time = new Date().toLocaleTimeString()
       setCurrentTime(time)
     }
-    setInterval(updateTime, 1000) 
-    
+    setInterval(updateTime, 1000);  
   return (
     <>
       <div className='time-container'>
