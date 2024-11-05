@@ -600,5 +600,4 @@ const ParticlesBack = () => {
     </>
   )
 }
-
 export default ParticlesBack
