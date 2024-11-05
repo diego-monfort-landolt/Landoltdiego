@@ -597,7 +597,6 @@ const ParticlesBack = () => {
         }}
          />   
       </div>
-
     </>
 
   )
