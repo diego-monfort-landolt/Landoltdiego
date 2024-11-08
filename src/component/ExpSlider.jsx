@@ -73,7 +73,6 @@ const ExpSlider = () => {
           <div className="slide">
             <img src={Bild5} alt='html img' />
           </div>
-          
         </div>
       </div>
     </>
