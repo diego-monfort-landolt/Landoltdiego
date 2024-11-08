@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './time.css'
 
 const Time = () => {
+  
   let time = new Date().toLocaleTimeString()
     const [currentTime, setCurrentTime] =  useState(time)
     const updateTime = () => {
