@@ -24,7 +24,7 @@ const AboutMe = () => {
             <br />
             <br />
             <mark>Skills:</mark><br />
-            HTML, CSS, JavaScript y React estoy aprendiendo por mi cuenta, con la ayuda de Google, compañeros de trabajo y amigos. JavaScript me entusiasma especialmente, mis próximos pasos serán aprender express y Mongodb.</p><br />
+            HTML, CSS, JavaScript, Typescript y React-Vite estoy aprendiendo por mi cuenta, con la ayuda de Google, compañeros de trabajo y amigos. React - JavaScript me entusiasma especialmente, mis próximos pasos serán aprender Node - express y Mongodb.</p><br />
           <p className='lasttext'>
             <Typewriter
               options={{
