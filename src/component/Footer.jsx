@@ -15,7 +15,7 @@ function Footer() {
               <AiFillGithub color='red' size='30px' />
             </a>  <code>React - Vite - JS</code> 
             <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
-              <AiFillLinkedin size='30px' color='red' />
+                <AiFillLinkedin size='30px' color='red' />
             </a>
         </p>
       </div>
