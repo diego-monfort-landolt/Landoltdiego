@@ -3,7 +3,6 @@ import '../pages/Home.css'
 import weg from '../images/camino.jpg'
 import Footer from "../component/Footer";
 import Form from "../component/form/Form";
-
 export const Contact = () => {
   return (
     <>
