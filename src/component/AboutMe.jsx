@@ -65,7 +65,6 @@ const AboutMe = () => {
             <a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='red' size='50px' />
             </a>
-            
             <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
               <AiFillLinkedin size='50px' color='red' />
             </a>
