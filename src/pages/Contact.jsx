@@ -30,5 +30,6 @@ export const Contact = () => {
       </div> 
       <Footer />
     </>
-  )}
+  )
+  }
 export default Contact
