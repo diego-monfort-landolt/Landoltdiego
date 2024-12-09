@@ -75,6 +75,5 @@ export const Home = () => {
         <Footer />
       <Outlet />
     </>
-  )
-}
+  )}
 export default Home;
