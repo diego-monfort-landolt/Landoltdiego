@@ -31,5 +31,5 @@ export const Contact = () => {
       <Footer />
     </>
   )
-  }
+}
 export default Contact

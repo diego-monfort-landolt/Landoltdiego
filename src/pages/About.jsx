@@ -7,5 +7,6 @@ export const About = () => {
    <AboutMe />
    <Footer />
    </>
-  )}
+  )
+}
 export default About
