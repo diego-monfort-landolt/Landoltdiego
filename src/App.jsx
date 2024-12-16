@@ -7,8 +7,7 @@ import  Home  from './pages/Home'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
-function App() {
-  
+function App() { 
   const location = useLocation();
   useEffect(() => {
     let currentPath = location.pathname;
