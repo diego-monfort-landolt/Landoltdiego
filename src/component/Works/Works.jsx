@@ -3,12 +3,14 @@ import cardbackground from '../../images/cardbackground.png'
 import cookieBuild from '../../images/cookieBuild.png'
 import firstportfolio from '../../images/firstportfolio.png'
 import JavaScriptQuiz from '../../images/JavaScriptQuiz.png'
+import Colors from '../../images/colors.png'
 import TictacToe from '../../images/tictactoe.png'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import './Works.css'
+import { colors } from '@mui/material'
 
 const Works = () => {
 
@@ -59,22 +61,26 @@ const Works = () => {
             </Typography>
           </CardContent>
         </Card>
+
+
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
-            sx={{ height: 180 }}
-            image={cardbackground}
+            sx={{ height: 200 }}
+            image={Colors}
 
           />
-          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/borderanimation/" }}>
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/Color/" }}>
             <Typography gutterBottom variant="h5" component="div">
-              Border Animation
+              Color Picker
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Border animation HTML and CSS. One of my first projects i hope you like it
+              Color Picker
             </Typography>
           </CardContent>
          
         </Card>
+
+        
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
