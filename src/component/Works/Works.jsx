@@ -74,7 +74,7 @@ const Works = () => {
               Color Picker
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Color Picker
+              Color Picker -Copy and paste the color code
             </Typography>
           </CardContent>
          
