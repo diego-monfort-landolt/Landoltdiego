@@ -1,6 +1,5 @@
 import letter from '../../images/letter.png'
-import cardbackground from '../../images/cardbackground.png'
-import cookieBuild from '../../images/cookieBuild.png'
+import PrevisiónMeteorológica from '../../images/Previsión Meteorológica.png'
 import firstportfolio from '../../images/firstportfolio.png'
 import JavaScriptQuiz from '../../images/JavaScriptQuiz.png'
 import Colors from '../../images/colors.png'
@@ -10,7 +9,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import './Works.css'
-import { colors } from '@mui/material'
+
 
 const Works = () => {
 
@@ -47,17 +46,18 @@ const Works = () => {
             </Typography>
           </CardContent>
         </Card>
+
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
             sx={{ height: 180 }}
-            image={cookieBuild}
+            image={PrevisiónMeteorológica}
           />
-          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/cookie-popUp/" }}>
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/weather-app/" }}>
             <Typography gutterBottom variant="h5" component="div">
-              My first Cookie
+            Previsión Meteorológica
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              My first cookie created with HTML,CSS JavaScript through a youtube video
+            Previsión Meteorológica con React -vite y Typescript
             </Typography>
           </CardContent>
         </Card>
