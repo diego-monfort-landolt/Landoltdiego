@@ -12,7 +12,7 @@ function Footer() {
       <div className={`appear-animation ${isVisible ? 'visible' : ''}`}>
         <p><a href='https://github.com/diego-monfort-landolt'>
               <AiFillGithub color='red' size='30px' />
-            </a>  <code>React - Vite - JS</code> 
+            </a>  <code>Diego - Landolt</code> 
             <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
                 <AiFillLinkedin size='30px' color='red' />
             </a>
