@@ -8,7 +8,7 @@ export const Navbar = () => {
     <>
       <div>
         <nav>
-          <Link to='/Landoltdiego' className='title'><h2>DiegoDev</h2></Link>
+          <Link to='./' className='title'><h2>DiegoDev</h2></Link>
           <div className='menu' onClick={() => {
             setMenuOpen(!menuOpen)
           }} >
