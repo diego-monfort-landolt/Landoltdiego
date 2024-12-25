@@ -23,6 +23,10 @@ function App() {
         // Redirect to base URL if not on the base path
         if (currentPath !== '') {
           navigate('/Landoltdiego');
+          navigate('/Landoltdiego/Home');
+          navigate('/Landoltdiego/About');
+          navigate('/Landoltdiego/Contact');
+
         }
   }, [location, navigate]);
   
