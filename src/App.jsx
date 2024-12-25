@@ -1,4 +1,4 @@
-import { Route, Routes, useNavigate } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import  Navbar  from './component/Navbar'
 import  About  from './pages/About'
@@ -9,26 +9,18 @@ import { useLocation } from 'react-router-dom';
 
 function App() { 
   const location = useLocation();
-  const navigate = useNavigate();
 
   useEffect(() => {
     let currentPath = location.pathname;
     // Check if the currentPath starts with '/' and remove it
-    if (currentPath.startsWith('/Landoltdiego')) {
-      currentPath = currentPath.substring('/Landoltdiego'.length);
+    if (currentPath.startsWith('/Landoltdiego/')) {
+      currentPath = currentPath.substring('/Landoltdiego/'.length);
       
     }
     currentPath = currentPath.replace(/\//g, '');
     document.title = `Frontend Developer | ${ currentPath}`;  
-        // Redirect to base URL if not on the base path
-        if (currentPath !== '') {
-          navigate('/Landoltdiego');
-          navigate('/Landoltdiego/Home');
-          navigate('/Landoltdiego/About');
-          navigate('/Landoltdiego/Contact');
-
-        }
-  }, [location, navigate]);
+      
+  }, [location]);
   
 
 
