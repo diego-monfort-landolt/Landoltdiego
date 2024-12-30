@@ -4,8 +4,7 @@ Este es el portafolio de Diego Landolt Monfort, un apasionado desarrollador fron
 
 ## Descripción
 
-Este portafolio muestra los proyectos y habilidades de Diego Landolt Monfort en el desarrollo frontend. Utiliza tecnologías modernas como React, Vite, TypeScript, JavaScript, HTML y CSS. Actualmente, Diego trabaja en NexTret como 'ServiceDesk L1 /L2' y está aprendiendo MongoDB y Vue.
-
+Este portafolio muestra los proyectos y habilidades
 ## Instalación
 
 Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
