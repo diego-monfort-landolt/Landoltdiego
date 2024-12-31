@@ -8,6 +8,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import FinanzTracker from '../../images/Finanz-Tracker.png'
 import './Works.css'
 
 
@@ -49,6 +50,23 @@ const Works = () => {
 
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
+            sx={{ height: 200 }}
+            image={FinanzTracker}
+
+          />
+          <CardContent onClick={() => { location = "https://diego-monfort-landolt.github.io/finance-app/" }}>
+            <Typography gutterBottom variant="h5" component="div">
+            Finanz-Tracker
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+            Finanz-Tracker -React Vite y Typescript
+            </Typography>
+          </CardContent>
+         
+        </Card>
+
+        <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
+          <CardMedia
             sx={{ height: 180 }}
             image={PrevisiónMeteorológica}
           />
@@ -61,6 +79,9 @@ const Works = () => {
             </Typography>
           </CardContent>
         </Card>
+
+
+
 
 
         <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
