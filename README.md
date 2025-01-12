@@ -1,12 +1,12 @@
 # Diego Landolt Monfort Portfolio
 
-Este es el portafolio de Diego Landolt Monfort, un apasionado desarrollador frontend de España. Este proyecto está construido con React y Vite.
+Este es el portafolio de Diego Landolt Monfort, un apasionado desarrollador frontend de España. 
+Este proyecto está construido con React y Vite.
 
 ## Descripción
-
 Este portafolio muestra los proyectos y habilidades
-## Instalación
 
+## Instalación
 Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio:

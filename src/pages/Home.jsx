@@ -10,6 +10,8 @@ import Footer from '../component/Footer';
 import Popup from '../component/PopUp';
 import Reviews from '../component/experience-cards/Reviews';
 import { Outlet } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+
 export const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
@@ -17,6 +19,11 @@ export const Home = () => {
   }, []);
   return (
     <>
+      <Helmet> 
+        <title>Descubre el portafolio de Diego Landolt Monfort</title> 
+        <meta name="description" content="Explora el portafolio de Diego Landolt Monfort, un talentoso y apasionado desarrollador frontend de España. Descubre sus proyectos innovadores y habilidades en tecnologías como React, Vite, TypeScript, JavaScript, HTML y CSS. Actualmente, Diego trabaja en NexTret como 'ServiceDesk L1/L2' y está comprometido en seguir aprendiendo MongoDB y Vue para ampliar su conocimiento y experiencia." /> 
+        <meta name="keywords" content="Diego Landolt, Diego Monfort, Landolt, Landoltdiego, Webentwickler, Frontend-Entwickler, React, programador, React Developer, Frontend Developer, HTML, CSS, JavaScript" />
+      </Helmet>
       <div className='mainsection'>
         <Popup />
         <div className='imagesection'>
@@ -70,9 +77,9 @@ export const Home = () => {
           </div>
         </div>
         <Reviews />
-         <Time />
-          </main>
-        <Footer />
+        <Time />
+      </main>
+      <Footer />
       <Outlet />
     </>
   )
