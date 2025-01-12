@@ -34,7 +34,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/*' element={<Home />} />  
-          <Route path='/' element={<NotFound />} />
+          <Route Component={NotFound} element={<NotFound />} />
         </Routes>  
     </>
   )
