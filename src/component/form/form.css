@@ -129,3 +129,14 @@ input[type="email"] {
 .ok-button:hover { 
   background-color: #218838
 }
+@media (max-width: 600px) {
+  .popup {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .ok-button {
+    width: 80px;
+    font-size: 14px;
+  }
+}

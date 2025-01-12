@@ -79,7 +79,7 @@ const Form = () => {
           </form>
         ) : (
           <div className={`popup ${formStatus === 'success' ? 'success' : 'error'}`}>
-            {formStatus === 'success' ? 'Das Formular wurde erfolgreich gesendet!' : 'Es gab ein Problem beim Senden des Formulars. Bitte versuche es erneut.'}
+            {formStatus === 'success' ? '¡El formulario se ha enviado con éxito! 🚀' : 'Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo. 🚀'}
             {formStatus === 'success' && <button onClick={handleOkClick} className="ok-button">Ok</button>}
           </div>
         )}
