@@ -6,6 +6,7 @@ import  Contact  from './pages/Contact'
 import  Home  from './pages/Home'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import NotFound from './pages/NotFound'
 
 function App() { 
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/*' element={<Home />} />  
+          <Route path='/' element={<NotFound />} />
         </Routes>  
     </>
   )
