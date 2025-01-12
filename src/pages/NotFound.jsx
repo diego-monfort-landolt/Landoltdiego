@@ -1,16 +1,18 @@
+import { useEffect } from 'react';
+
 const NotFound = () => {
+  useEffect(() => {
+    // Redirect to the base URL
+    var baseUrl = 'https://diego-monfort-landolt.github.io/Landoltdiego/';
+    window.location.replace(baseUrl);
+  }, []);
+
   return (
     <div>
       <h1>Page Not Found</h1>
       <p>Redirecting...</p>
-      <script type="text/javascript">
-        {`
-          var baseUrl = 'https://diego-monfort-landolt.github.io/Landoltdiego/'; 
-          window.location.replace(baseUrl);
-        `
-        }
-      </script>
     </div>
   );
 };
+
 export default NotFound;
