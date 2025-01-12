@@ -83,3 +83,49 @@ input[type="email"] {
   );
   box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
+
+.popup {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.success {
+  background-color: #53cc70;
+  padding: 10px;
+  color: #bbcac0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.formcontainer form {
+  /* Weißer Hintergrund für das Formular */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.formcontainer form.submitted {
+  background-color: #d4edda; /* Grüner Hintergrund nach dem Absenden */
+}
+.ok-button { 
+  display: block; 
+  margin: 20px auto ; /* Zentriert den Button und fügt Abstand oben hinzu */ 
+  padding: 10px 20px; 
+  background-color: #28a745; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+} 
+.ok-button:hover { 
+  background-color: #218838
+}
