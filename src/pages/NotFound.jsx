@@ -5,11 +5,10 @@ const NotFound = () => {
       <p>Redirecting...</p>
       <script type="text/javascript">
         {`
-          // Redirect to the base URL
-          var pathname = window.location.pathname;
-          var newUrl = '/' + pathname;
-          window.location.replace(newUrl);
-        `}
+          var baseUrl = 'https://diego-monfort-landolt.github.io/Landoltdiego/'; 
+          window.location.replace(baseUrl);
+        `
+        }
       </script>
     </div>
   );
