@@ -28,9 +28,10 @@ const Form = () => {
     }
   };
 
-  const handleOkClick = () => {
-    window.location.reload();
-  };
+  const handleOkClick = () => { 
+    window.location.href = 'https://diego-monfort-landolt.github.io/Landoltdiego/'; 
+    // Redirect to the base URL
+    };
 
   return (
     <>
