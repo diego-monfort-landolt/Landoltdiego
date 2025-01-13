@@ -82,14 +82,10 @@ input[type="email"] {
   padding: 10px;
   margin-top: 10px;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  
 }
 
 .success {
-  background-color: #53cc70;
   padding: 10px;
   color: #bbcac0;
   text-align: center;
@@ -111,7 +107,10 @@ input[type="email"] {
   background-color: #d4edda; /* Grüner Hintergrund nach dem Absenden */
 }
 .ok-button { 
-  display: block; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   margin: 20px auto ; /* Zentriert den Button und fügt Abstand oben hinzu */ 
   padding: 10px 20px; 
   background-color: #28a745; 
