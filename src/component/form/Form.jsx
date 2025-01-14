@@ -4,7 +4,6 @@ import './form.css';
 
 const Form = () => {
   const { register, formState: { errors }, handleSubmit } = useForm();
-  const [formStatus, setFormStatus] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const onSubmit = async (data) => {
@@ -18,20 +17,12 @@ const Form = () => {
       });
 
       if (response.ok) {
-        setFormStatus('success');
         setIsSubmitted(true);
-      } else {
-        setFormStatus('error');
       }
     } catch (error) {
-      setFormStatus('error');
+      console.error('Error submitting form:', error);
     }
   };
-
-  const handleOkClick = () => { 
-    window.location.href = 'https://diego-monfort-landolt.github.io/Landoltdiego/'; 
-    // Redirect to the base URL
-    };
 
   return (
     <>
@@ -79,13 +70,13 @@ const Form = () => {
             <input type="hidden" name="_blacklist" value="vendo, telefono, link, amor, curso, formacion, dinero, http, https"></input>
           </form>
         ) : (
-          <div className={`popup ${formStatus === 'success' ? 'success' : 'error'}`}>
-            {formStatus === 'success' ? '¡El formulario se ha enviado con éxito! 🚀' : 'Hubo un problema al enviar el formulario. Por favor, inténtalo de nuevo. 🚀'}
-            {formStatus === 'success' && <button onClick={handleOkClick} className="ok-button">Ok</button>}
+          <div>
+            <p>¡El formulario se ha enviado con éxito!</p>
           </div>
         )}
       </div>
     </>
   );
 };
+
 export default Form;
