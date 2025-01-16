@@ -14,15 +14,14 @@ function App() {
     let currentPath = location.pathname;
     // Check if the currentPath starts with '/' and remove it
     if (currentPath.startsWith('/Landoltdiego')) {
-      currentPath = currentPath.substring('/Landoltdiego'.length);
-      
+      currentPath = currentPath.substring('/Landoltdiego'.length);    
     }
     currentPath = currentPath.replace(/\//g, '');
-    document.title = `Frontend Developer | ${ currentPath}`;  
-      
+    document.title = `Frontend Developer | ${ currentPath}`;       
   }, [location]);
   
   return (
+
     <>
       <div>
         <Navbar />    
