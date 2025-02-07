@@ -15,10 +15,10 @@ export const Contact = () => {
         <p>Sie me quieres contactar te dejo mis enlaces de github y LinkedIn
           hasta pronto y gracias por tu tiempo
           <br />
-          <br /> 
-        </p> 
-        <br /> 
-        <Form /> 
+          <br />
+        </p>
+        <br />
+        <Form />
         <div className='lastsection'>
           <a href='https://github.com/diego-monfort-landolt'>
             <AiFillGithub color='red' size='50px' />
@@ -27,7 +27,7 @@ export const Contact = () => {
             <AiFillLinkedin size='50px' color='red' />
           </a>
         </div>
-      </div> 
+      </div>
       <Footer />
     </>
   )
