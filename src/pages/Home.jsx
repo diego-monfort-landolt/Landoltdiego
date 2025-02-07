@@ -11,17 +11,23 @@ import Popup from '../component/PopUp';
 import Reviews from '../component/experience-cards/Reviews';
 import { Outlet } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import BlurText from '../component/BlurText/BlurText';
 
 export const Home = () => {
+  const [key, setKey] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     setIsVisible(true);
   }, []);
+  const handleAnimationComplete = () => {
+     // Resetting the key will force the component to re-render
+     setKey(prevKey => prevKey + 1);
+  };
   return (
     <>
-      <Helmet> 
-        <title>Descubre el portafolio de Diego Landolt Monfort</title> 
-        <meta name="description" content="Explora el portafolio de Diego Landolt Monfort, un talentoso y apasionado desarrollador frontend de España. Descubre sus proyectos innovadores y habilidades en tecnologías como React, Vite, TypeScript, JavaScript, HTML y CSS. Actualmente, Diego trabaja en NexTret como 'ServiceDesk L1/L2' y está comprometido en seguir aprendiendo MongoDB y Vue para ampliar su conocimiento y experiencia." /> 
+      <Helmet>
+        <title>Descubre el portafolio de Diego Landolt Monfort</title>
+        <meta name="description" content="Explora el portafolio de Diego Landolt Monfort, un talentoso y apasionado desarrollador frontend de España. Descubre sus proyectos innovadores y habilidades en tecnologías como React, Vite, TypeScript, JavaScript, HTML y CSS. Actualmente, Diego trabaja en NexTret como 'ServiceDesk L1/L2' y está comprometido en seguir aprendiendo MongoDB y Vue para ampliar su conocimiento y experiencia." />
         <meta name="keywords" content="Diego Landolt, Diego Monfort, Landolt, Landoltdiego, Webentwickler, Frontend-Entwickler, React, programador, React Developer, Frontend Developer, HTML, CSS, JavaScript" />
       </Helmet>
       <div className='mainsection'>
@@ -46,7 +52,17 @@ export const Home = () => {
       </div >
       <main className='main'>
         <div className='main-container'>
-          <h3 className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>Dale un clic... </h3>
+          <h3 key={key} className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>
+            <BlurText
+              text="...Dale un Clic..."
+              delay={150}
+              animateBy="words"
+              direction="top"
+              duration={2000}
+              onAnimationComplete={handleAnimationComplete}
+              className="text-2xl mb-8"
+            />
+            </h3>
           <Card />
         </div>
         <div className='text-section'>
