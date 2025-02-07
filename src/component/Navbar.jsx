@@ -3,7 +3,7 @@ import { Link, NavLink, Outlet } from 'react-router-dom'
 import './Navbar.css'
 
 export const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false) 
   return (
     <>
       <div>
@@ -17,17 +17,11 @@ export const Navbar = () => {
             <span></span>
           </div>
           <ul className={menuOpen ? "open" : ""}>
-            <li onClick={() => setMenuOpen(false)}>
-              <NavLink to='/Landoltdiego/Home'>Home</NavLink>
-            </li>
-            <li onClick={() => setMenuOpen(false)}>
-              <NavLink to='/Landoltdiego/About'>About</NavLink>
-            </li>
-            <li onClick={() => setMenuOpen(false)}>
-              <NavLink to='/Landoltdiego/Contact'>Contact</NavLink>
-            </li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='./Home'>Home</NavLink></li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='./About'>About</NavLink></li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='./Contact'>Contact</NavLink></li>
           </ul>
-        </nav>
+        </nav>    
         <Outlet />
       </div>
     </>
