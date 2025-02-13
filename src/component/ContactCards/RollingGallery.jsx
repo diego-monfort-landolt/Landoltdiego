@@ -79,17 +79,17 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
     if (autoplay && pauseOnHover) {
       controls.start({
         rotateY: rotation.get() - (360 / faceCount),
-        transition: { duration: 2, ease: "linear" },
+        transition: { duration: 4, ease: "linear" },
       });
       rotation.set(rotation.get() - (360 / faceCount));
 
       autoplayRef.current = setInterval(() => {
         controls.start({
           rotateY: rotation.get() - (360 / faceCount),
-          transition: { duration: 2, ease: "linear" },
+          transition: { duration: 4, ease: "linear" },
         });
         rotation.set(rotation.get() - (360 / faceCount));
-      }, 2000);
+      }, 4000);
     }
   };
 
