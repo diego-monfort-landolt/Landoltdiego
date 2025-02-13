@@ -4,7 +4,10 @@ import RollingGallery from './RollingGallery'
 const ContactCard = () => {
   return (
     <>
-      <RollingGallery autoplay={true} pauseOnHover={true} />
+      <RollingGallery 
+      autoplay={true} 
+      pauseOnHover={true} 
+      />
     </>
   )
 }

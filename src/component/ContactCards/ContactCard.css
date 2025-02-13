@@ -26,6 +26,10 @@
   width: 100%;
 } */
 
+
+
+
+
 .gallery-container {
   position: relative;
   height: 500px;
@@ -102,6 +106,8 @@
   }
   .gallery-img {
     height: 100px;
-    width: 220px;
+    width: 160px;
+    box-shadow: 0 0 10px red;
+  
   }
-}
+} 
