@@ -66,12 +66,22 @@ export const Home = () => {
           <Card />
         </div>
         <div className='text-section'>
-          <h2>Experiencia</h2>
+        <h2>Experiencía</h2>
         </div>
         <ExpSlider />
         <Works />
-        <div className='text-section'>
-          <h2>Sobre mí</h2>
+        <div  key={key} className={`text-section appear-animation ${isVisible ? 'visible' : ''}`}>
+        <h2>
+            <BlurText
+              text=" Sobre mí "
+              delay={150}
+              animateBy="words"
+              direction="top"
+              duration={2000}
+              onAnimationComplete={handleAnimationComplete}
+              className="text-2xl mb-8"
+            />
+            </h2>
         </div>
         <div className='texto'>
           <p>
