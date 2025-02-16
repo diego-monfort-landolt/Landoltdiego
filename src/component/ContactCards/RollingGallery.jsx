@@ -66,7 +66,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
   // Pause on hover with smooth transition
   const handleMouseEnter = () => {
     if (autoplay && pauseOnHover) {
