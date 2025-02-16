@@ -73,7 +73,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
       controls.stop(); // Stop the animation smoothly
     }
   };
-
   const handleMouseLeave = () => {
     if (autoplay && pauseOnHover) {
       controls.start({
