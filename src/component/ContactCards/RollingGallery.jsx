@@ -92,7 +92,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
       }, 4000);
     }
   };
-
   return (
     <div className="gallery-container">
       <div className="gallery-gradient gallery-gradient-left"></div>
