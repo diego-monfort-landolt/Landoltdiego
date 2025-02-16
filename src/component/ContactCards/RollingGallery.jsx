@@ -4,7 +4,6 @@ import { motion, useMotionValue, useAnimation, useTransform } from "framer-motio
 import "./ContactCard.css";
 
 const IMGS = [
-
   "https://cdn.pixabay.com/photo/2015/09/23/03/55/sunset-952876_1280.jpg",
   "https://cdn.pixabay.com/photo/2016/10/29/20/39/gelsenkirchen-1781473_1280.jpg",
   "https://cdn.pixabay.com/photo/2020/01/12/18/44/sunset-4760808_1280.jpg",
@@ -23,7 +22,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
   const faceWidth = (cylinderWidth / faceCount) * 1.5; // Increased width for items
   const dragFactor = 0.05;
   const radius = cylinderWidth / (2 * Math.PI);
-
   const rotation = useMotionValue(0);
   const controls = useAnimation();
   const autoplayRef = useRef();
