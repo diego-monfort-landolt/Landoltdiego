@@ -38,7 +38,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
       transition: { type: "spring", stiffness: 60, damping: 20, mass: 0.1, ease: "easeOut" },
     });
   };
-
   const transform = useTransform(rotation, (value) => {
     return `rotate3d(0, 1, 0, ${value}deg)`;
   });
