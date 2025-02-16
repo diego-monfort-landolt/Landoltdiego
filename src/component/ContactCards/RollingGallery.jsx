@@ -31,7 +31,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
   const handleDrag = (_, info) => {
     rotation.set(rotation.get() + info.offset.x * dragFactor);
   };
-
   const handleDragEnd = (_, info) => {
     controls.start({
       rotateY: rotation.get() + info.velocity.x * dragFactor,
