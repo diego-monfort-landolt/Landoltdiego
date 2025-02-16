@@ -42,7 +42,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
   const transform = useTransform(rotation, (value) => {
     return `rotate3d(0, 1, 0, ${value}deg)`;
   });
-
   // Autoplay effect with adjusted timing
   useEffect(() => {
     if (autoplay) {
