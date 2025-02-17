@@ -74,7 +74,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
         transition: { duration: 4, ease: "linear" },
       });
       rotation.set(rotation.get() - (360 / faceCount));
-
       autoplayRef.current = setInterval(() => {
         controls.start({
           rotateY: rotation.get() - (360 / faceCount),
