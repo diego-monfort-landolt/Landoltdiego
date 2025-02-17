@@ -46,7 +46,6 @@
   right: 0;
   background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #060606 100%);
 }
-
 .gallery-content {
   display: flex;
   height: 100%;
