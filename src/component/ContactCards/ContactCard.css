@@ -93,7 +93,6 @@
   .gallery-img {
     height: 100px;
     width: 160px;
-    box-shadow: 0 0 10px red;
-  
+    box-shadow: 0 0 10px red; 
   }
 } 
