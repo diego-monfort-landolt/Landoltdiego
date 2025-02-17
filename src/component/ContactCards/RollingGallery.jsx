@@ -12,7 +12,6 @@ const IMGS = [
   "https://cdn.pixabay.com/photo/2020/02/06/15/33/sunset-4824669_1280.jpg",
   "https://cdn.pixabay.com/photo/2017/09/08/20/32/sunset-2730045_1280.jpg",
 ];
-
 const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] }) => {
   images = IMGS;
   const [isScreenSizeSm, setIsScreenSizeSm] = useState(window.innerWidth <= 640);
