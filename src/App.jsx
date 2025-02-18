@@ -21,7 +21,6 @@ function App() {
   }, [location]);
   
   return (
-
     <>
       <div>
         <Navbar />    
