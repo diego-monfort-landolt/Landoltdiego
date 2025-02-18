@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import '../component/Card.css'
+
 const Card = () => {
   const [isOpen, setIsOpen] = useState(false)
   return (
