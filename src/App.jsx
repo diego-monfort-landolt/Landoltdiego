@@ -18,7 +18,6 @@ function App() {
     currentPath = currentPath.replace(/\//g, '');
     document.title = `Frontend Developer | ${ currentPath}`;       
   }, [location]);
-  
   return (
     <>
       <div>
