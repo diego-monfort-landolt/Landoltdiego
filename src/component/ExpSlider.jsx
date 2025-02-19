@@ -1,4 +1,4 @@
-import '../component/ExpSlider.css' // Prüfen fals
+import '../component/ExpSlider.css' 
 import Bild1 from '../images/html.png'
 import Bild2 from '../images/css.png'
 import Bild3 from '../images/js.png'
@@ -34,9 +34,11 @@ const ExpSlider = () => {
           <div className="slide">
             <img src={Bild3} alt='html img' />
           </div>
+          
           <div className="slide">
             <img src={Bild4} alt='html img' />
           </div>
+
           <div className="slide">
             <img src={Bild5} alt='html img' />
           </div>
