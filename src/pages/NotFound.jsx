@@ -6,7 +6,6 @@ const NotFound = () => {
     var baseUrl = 'https://diego-monfort-landolt.github.io/Landoltdiego/';
     window.location.replace(baseUrl);
   }, []);
-
   return (
     <div>
       <h1>Page Not Found</h1>
