@@ -56,7 +56,6 @@ const RollingGallery = ({ autoplay = false, pauseOnHover = false, images = [] })
     const handleResize = () => {
       setIsScreenSizeSm(window.innerWidth <= 640);
     };
-
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
