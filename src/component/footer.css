@@ -1,33 +1,108 @@
 .footer {
-  height: 70px;
+  height: auto;
   bottom: 0;
   width: 100%;
   background-color: #000;
   color: white;
-  text-align: left;
+  text-align: center;
   padding: 20px;
   word-wrap: break-word;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-top: .1px solid red;
+  border-top: 1px solid red;
+  position: relative;
 }
+
 .appear-animation {
   opacity: 0;
   transition: opacity 2s ease-in-out;
 }
+
 .appear-animation.visible {
   opacity: 1;
 }
+
 code {
   background-color: #5f5f5f;
   padding: 5px;
-  margin: 0 5px;
+  margin: 10px 0;
   border-radius: 3px;
   letter-spacing: 2px;
   color: #000;
-  font-size: bolder;
   font-size: 15px;
+  font-weight: bold;
   font-style: italic;
+  white-space: nowrap; /* Verhindert Umbruch im Code */
+  display: block; /* Verhindert, dass der Code-Text in eine Zeile gezwungen wird */
+  text-align: center; /* Zentriert den Text innerhalb des code-Tags */
+  max-width: 90%; /* Stellt sicher, dass der Text nicht zu breit wird */
+  margin: 0 auto 15px auto; /* Zentriert und gibt Platz unter dem Code */
+}
+
+/* Icons Styling */
+.footer a {
+  color: red; /* Rot für Links */
+  margin: 0 10px; /* Abstand zwischen den Icons */
+  text-decoration: none; /* Entfernt die Unterstreichung */
+}
+
+.footer a:hover {
+  color: #fff; /* Weiß beim Hover */
+  transition: color 0.3s ease-in-out;
+}
+
+/* Icons und Text in einer Linie ausrichten */
+.footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column; /* Auf mobilen Geräten wird der Inhalt untereinander dargestellt */
+  margin-top: 10px;
+}
+
+/* Responsives Design für kleinere Geräte */
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px;
+  }
+
+  code {
+    font-size: 14px; /* Kleinere Schriftgröße auf mobilen Geräten */
+    margin: 5px 0; /* Weniger Abstand */
+    white-space: normal; /* Erlaubt Umbruch der E-Mail-Adresse */
+  }
+
+  .footer a {
+    font-size: 14px; /* Kleine Schriftgröße auf mobilen Geräten */
+  }
+
+  .footer .footer-content {
+    flex-direction: column; /* Icons und Text untereinander */
+    align-items: center; /* Zentriert die Icons und den Text */
+    margin-top: 10px;
+  }
+
+  .footer .footer-content .social-icons {
+    flex-direction: row; /* Icons nebeneinander auf kleinen Bildschirmen */
+    margin-top: 10px;
+  }
+
+  .footer .footer-content code {
+    margin-bottom: 10px;
+  }
+}
+
+/* Tablet- und Webansicht */
+@media (min-width: 768px) {
+  .footer .footer-content {
+    flex-direction: row; /* Icons und Text nebeneinander auf größeren Bildschirmen */
+    align-items: center;
+  }
+
+  code {
+    font-size: 15px; /* Standard-Schriftgröße für größere Bildschirme */
+  }
 }

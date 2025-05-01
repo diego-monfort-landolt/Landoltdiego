@@ -8,7 +8,7 @@ export const Navbar = () => {
     <>
       <div>
         <nav>
-          <Link to='/' className='title'><h2>DiegoDev</h2></Link>
+          <Link to='https://diego-monfort-landolt.github.io/Landoltdiego/' className='title'><h2>DiegoDev</h2></Link>
           <div className='menu' onClick={() => {
             setMenuOpen(!menuOpen)
           }} >
@@ -17,9 +17,9 @@ export const Navbar = () => {
             <span></span>
           </div>
           <ul className={menuOpen ? "open" : ""}>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='./Home'>Home</NavLink></li>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='./About'>About</NavLink></li>
-            <li onClick={() => setMenuOpen(false)}> <NavLink to='./Contact'>Contact</NavLink></li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='/Landoltdiego/Home'>Home</NavLink></li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='/Landoltdiego/About'>About</NavLink></li>
+            <li onClick={() => setMenuOpen(false)}> <NavLink to='/Landoltdiego/Contact'>Contact</NavLink></li>
           </ul>
         </nav>    
         <Outlet />
