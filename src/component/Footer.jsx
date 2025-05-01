@@ -7,23 +7,24 @@ function Footer() {
   useEffect(() => {
     setIsVisible(true);
   }, []);
-  // dass jahr wird aktuell angezeigt
+
   const currentYear = new Date().getFullYear();
-  return ( 
-    <> 
-    <div className='footer'>  
+
+  return (
+    <div className='footer'>
       <div className={`appear-animation ${isVisible ? 'visible' : ''}`}>
-        <p><a href='https://github.com/diego-monfort-landolt'>
-              <AiFillGithub color='red' size='30px' />
-            </a> 
-           <code> Diego - Landolt - {currentYear} -  <a href="mailto:diegomonfort1989@gmail.com">diegomonfort1989@gmail.com</a> </code> 
-            <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
-                <AiFillLinkedin size='30px' color='red' />
-            </a>
+        <p className="footer-content">
+          <a href='https://github.com/diego-monfort-landolt'>
+            <AiFillGithub color='red' size='30px' />
+          </a>
+          <code> Diego - Landolt - {currentYear} - <a href="mailto:diegomonfort1989@gmail.com">diegomonfort1989@gmail.com</a> </code>
+          <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
+            <AiFillLinkedin size='30px' color='red' />
+          </a>
         </p>
       </div>
     </div>
-    </>
-  )
+  );
 }
-export default Footer
+
+export default Footer;
