@@ -1,75 +1,70 @@
 .card-container {
-  min-height: 30vh;
+  min-height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-repeat: no-repeat;
+  padding: 20px;
+  background-image: url("../images/mont.jpg");
+  background-size: cover;
   background-position: center;
-  object-fit: cover;
-  margin: 20px;
+  background-attachment: fixed;
   border-radius: 12px;
   cursor: pointer;
+  box-sizing: border-box;
 }
-.card-container {
- background: url("../images/mont.jpg"), no-repeat;
- object-fit: cover;
- background-position: center; 
- background-attachment: fixed;
-}
+
 .card {
-  background-color: rgba(10, 6, 245, 0.521);
+  background-color: rgba(10, 6, 245, 0.6);
   color: #fff;
-  padding: 3rem 1rem;
+  padding: 2rem;
   border-radius: 12px;
   border: 1px solid blue;
   box-shadow: 1px 1px 25px red;
+  width: 100%;
+  max-width: 600px;
+  transition: box-shadow 0.3s ease;
 }
+
 .card:hover {
   box-shadow: 0 0 30px blue;
   border: 1px solid red;
 }
+
 .card p {
-  padding: 1rem;  
-  width: 100%;
+  padding: 1rem 0;
+  text-align: justify;
 }
+
 .cont {
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
 }
+
 .text-cont {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-cont {
+  flex: 0 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
+
 .card-diego-img {
-width: 150px;
-height: 150px;
-border-radius: 12px 0 12px 0;
-box-shadow: 1px 1px 15px #000;
-animation: animation1  ease 2s infinite normal none;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px 0 12px 0;
+  box-shadow: 1px 1px 15px #000;
+  animation: animation1 ease 2s infinite;
 }
-.btn-card {
-  background-color: red; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  padding: 10px;
-  letter-spacing: 2px;
-  border-radius: 8px; 
-  outline: none;
-  border: 1px solid blue;
-  box-shadow: 1px 1px 30px red;
-  margin-top: 20px; 
-}
-.btn-card:hover {
-  border: 1px solid red;
-}
+
 @keyframes animation1 {
   0% {
     opacity: 1;
@@ -79,5 +74,26 @@ animation: animation1  ease 2s infinite normal none;
   }
   100% {
     opacity: 1;
+  }
+}
+
+/* ✅ Responsive ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .cont {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-cont {
+    align-items: center;
+  }
+
+  .card-diego-img {
+    margin-top: 20px;
+  }
+
+  .card {
+    padding: 1.5rem;
   }
 }
