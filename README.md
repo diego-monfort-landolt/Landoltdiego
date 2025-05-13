@@ -12,16 +12,16 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 bash
 Copiar
 Editar
-# Clona el repositorio
+### Clona el repositorio
 git clone https://github.com/diego-monfort-landolt/Landoltdiego.git
 
-# Entra en el directorio del proyecto
+### Entra en el directorio del proyecto
 cd Landoltdiego
 
-# Instala las dependencias
+### Instala las dependencias
 npm install
 
-# Ejecuta el proyecto en modo desarrollo
+### Ejecuta el proyecto en modo desarrollo
 npm run dev
 Una vez hecho esto, abre tu navegador y ve a http://localhost:5173 para ver el portafolio en funcionamiento.
 
