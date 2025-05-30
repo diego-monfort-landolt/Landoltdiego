@@ -9,6 +9,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import FinanzTracker from '../../images/Finanz-Tracker.png'
+import Gartenbau from '../../images/gartenbau-jorgelandolt-gartenpflege.png'
 import './Works.css'
 
 
@@ -17,6 +18,20 @@ const Works = () => {
   return (
     <>
       <div className='cardContainer works-cont'>
+<Card className='cardInhalt' sx={{ maxWidth: 300 }}>
+          <CardMedia
+            sx={{ height: 180 }}
+            image={Gartenbau}
+          />
+          <CardContent onClick={() => { location = "https://gartenbaulandolt.ch/" }}>
+            <Typography gutterBottom variant="h5" component="div">
+              Gartenbau - One Pager 
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Gartenbau - One Pager - React Vite - Ts
+            </Typography>
+          </CardContent>
+        </Card>
 
       <Card className='cardInhalt' sx={{ maxWidth: 300 }}>
           <CardMedia
