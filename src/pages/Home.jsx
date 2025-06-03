@@ -53,7 +53,7 @@ export const Home = () => {
         <div className='main-container'>
           <h3 key={key} className={`end-header appear-animation ${isVisible ? 'visible' : ''}`}>
             <BlurText
-              text="...Dale un Clic..."
+              text="¡Bienvenido a mi página!"
               delay={150}
               animateBy="words"
               direction="top"
