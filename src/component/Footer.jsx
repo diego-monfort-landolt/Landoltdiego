@@ -17,7 +17,7 @@ function Footer() {
           <a href='https://github.com/diego-monfort-landolt'>
             <AiFillGithub color='red' size='30px' />
           </a>
-          <code> Diego - Landolt - {currentYear} - <a href="mailto:diegomonfort1989@gmail.com">diegomonfort1989@gmail.com</a> </code>
+          <code> Diego - Landolt - {currentYear} </code>
           <a href='https://www.linkedin.com/in/diego-monfort-landolt/'>
             <AiFillLinkedin size='30px' color='red' />
           </a>

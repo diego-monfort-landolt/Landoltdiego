@@ -26,8 +26,8 @@ export const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Diego Landolt Monfort | Home</title>
-        <meta name="description"  content="Descubre el portafolio de Diego Landolt Monfort, un apasionado desarrollador frontend de España con experiencia en React, Vite, TypeScript, JavaScript, HTML y CSS. Explora sus proyectos innovadores y su trayectoria en NexTret como 'ServiceDesk L1/L2'. Actualmente, Diego está expandiendo sus conocimientos en MongoDB y Vue para seguir creciendo como profesional." />
+        <title>Diego Landolt| Home</title>
+        <meta name="description"  content="Descubre el portafolio de Diego Landolt, un apasionado desarrollador frontend de España con experiencia en React, Vite, TypeScript, JavaScript, HTML y CSS. Explora sus proyectos innovadores y su trayectoria en NexTret como 'ServiceDesk L1/L2'. Actualmente, Diego está expandiendo sus conocimientos en MongoDB y Vue para seguir creciendo como profesional." />
       </Helmet>
       <div className='mainsection'>
         <Popup />
